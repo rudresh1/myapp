@@ -1,0 +1,15 @@
+[
+	{"scenario": ""},
+	{
+		"scenario": "allField",
+		"allField":{
+			"generalInfo":
+	        {   
+	            "site-name": "site",
+	            "DOB":"27/07/2020",
+				"gender": "Male",
+				"Room"	: "abc"
+	        }
+		}
+	}
+]

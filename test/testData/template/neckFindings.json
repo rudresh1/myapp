@@ -1,0 +1,1838 @@
+[
+    {"scenario": ""},
+    {
+        "scenario": "ALLNAD",
+    	"ALLNAD":{
+    		"findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "NAD"
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "NAD"
+                },
+                "CBD": 
+                {
+                    "option": "NAD"
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "NAD"
+                },
+                "Right kidney": 
+                {
+                    "option": "NAD"
+                },
+                "Left kidney": 
+                {
+                    "option": "NAD"
+                },
+                "Aorta": 
+                {
+                    "option": "NAD"
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised"
+                },
+                "RIF": 
+                {
+                    "option": "NAD"
+                },
+                "LIF": 
+                {
+                    "option": "NAD"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+    	}
+    },
+    {
+        "scenario": "AllNadWithSizeRoi",
+        "AllNadWithSizeRoi":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "NAD",
+                    "size": "33"
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "NAD"
+                },
+                "CBD": 
+                {
+                    "option": "NAD",
+                    "size": "34"
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "NAD",
+                    "size": "35"
+                },
+                "Right kidney": 
+                {
+                    "option": "NAD",
+                    "size": "36"
+                },
+                "Left kidney": 
+                {
+                    "option": "NAD",
+                    "size": "37"
+                },
+                "Aorta": 
+                {
+                    "option": "NAD",
+                    "size": "38"
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised",
+                        "roi": "true"                    
+                },
+                "RIF": 
+                {
+                    "option": "NAD",
+                    "roi": "true"                    
+                },
+                "LIF": 
+                {
+                    "option": "NAD",
+                    "roi": "true"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+        }
+    },
+    {
+        "scenario": "AllNadWithSize",
+        "AllNadWithSize":{
+            "findings":
+            {   
+
+                "Right parotid gland":
+                {
+                    "option": "NAD"
+                   
+                },
+                "Left parotid gland":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "NAD"
+                },
+                "CBD": 
+                {
+                    "option": "NAD",
+                    "size": "34"
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "NAD",
+                    "size": "35"
+                },
+                "Right kidney": 
+                {
+                    "option": "NAD",
+                    "size": "36"
+                },
+                "Left kidney": 
+                {
+                    "option": "NAD",
+                    "size": "37"
+                },
+                "Aorta": 
+                {
+                    "option": "NAD",
+                    "size": "38"
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised"
+                    
+                },
+                "RIF": 
+                {
+                    "option": "NAD"
+                    
+                },
+                "LIF": 
+                {
+                    "option": "NAD"
+                    
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+        }
+    },
+
+    {
+        "scenario": "AllNadWithNmRoi",
+        "AllNadWithNmRoi":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "NAD"
+                },
+                "CBD": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Right kidney": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Left kidney": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Aorta": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised",
+                    "rm":"true",
+                    "checkboxOptions":
+                    [{
+                        "roi": "true"
+                    }]
+                },
+                "RIF": 
+                {
+                    "option": "NAD",
+                    "roi": "true"
+
+                },
+                "LIF": 
+                {
+                    "option": "NAD",
+                    "roi": "true"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+        }
+    },
+    {
+        "scenario": "AllNadWithNm",
+        "AllNadWithNm":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "NAD"
+                },
+                "CBD": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Right kidney": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Left kidney": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Aorta": 
+                {
+                    "option": "NAD",
+                    "nm": "true"
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised",
+                    "rm":"true"                   
+                },
+                "RIF": 
+                {
+                    "option": "NAD"
+
+                },
+                "LIF": 
+                {
+                    "option": "NAD"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+        }
+    },
+  
+    {
+        "scenario": "ALLCommentsWith1OptionMandatory",        
+        "ALLCommentsWith1OptionMandatory":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Normal"
+                        },
+                        {
+                             "checkboxName":"Liver surface",
+                             "type": "required_Fixed",
+                             "option":"Smooth"
+                        },
+                        {
+                            "checkboxName":"Intrahepatic ducts dilation",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Distension",
+                            "type": "required_Fixed",
+                            "option":"Adequate"
+                        },
+                        {
+                             "checkboxName":"Cholelithiasis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cholecystitis ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Probe Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                },
+                "CBD": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Normal"
+                    }]
+                    
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Normal"
+                    }]
+                  
+                },
+                "Right kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                             "type": "required_Fixed",
+                             "option":"No"                      
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                   
+                },
+                "Left kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                             "type": "required_Fixed",
+                             "option":"No"                      
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Aorta": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Normal"
+                    }]
+                   
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised"
+                },
+                "RIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Appendix",
+                        "type": "required_Fixed",
+                        "option":"Not seen"
+                        
+                    },
+                    {
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "No"
+                        
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Absent"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Absent"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Absent"
+                        
+                    }]
+                },
+                "LIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "No"
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Absent"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Absent"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Absent"
+                        
+                    }]
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+        }
+    },
+    {
+        "scenario": "ALLCommentsWith2OptionMandatory",        
+        "ALLCommentsWith2OptionMandatory":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Bulky"
+                        },
+                        {
+                             "checkboxName":"Liver surface",
+                             "type": "required_Fixed",
+                             "option":"Nodular"
+                        },
+                        {
+                            "checkboxName":"Intrahepatic ducts dilation",
+                            "type": "required_Fixed",
+                            "option": "Mild"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Distension",
+                            "type": "required_Fixed",
+                            "option":"Suboptimal"
+                        },
+                        {
+                             "checkboxName":"Cholelithiasis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cholecystitis ?",
+                            "type": "required_Fixed",
+                            "option": "Mild"
+                            
+                        },
+                        {
+                            "checkboxName":"Probe Tenderness",
+                            "type": "required_Fixed",
+                            "option": "Mild"
+                            
+                        }]
+                },
+                "CBD": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Prominent"
+                    }]
+                    
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Bulky"
+                    }]
+                  
+                },
+                "Right kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Bulky"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"                              
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"Mild"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                   
+                },
+                "Left kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Bulky"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"  
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"Mild"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Aorta": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Ectatic(>20mm)"
+                    }]
+                   
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised"
+                },
+                "RIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Appendix",
+                        "type": "required_Fixed",
+                        "option":"Normal appendix seen"
+                        
+                    },
+                    {
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "Mild"
+                        
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    }]
+                },
+                "LIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "Mild"
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    }]
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }   
+        }
+    },
+     {
+        "scenario": "ALLCommentsWith3OptionMandatory",        
+        "ALLCommentsWith3OptionMandatory":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Enlarged"
+                        },
+                        {
+                             "checkboxName":"Liver surface",
+                             "type": "required_Fixed",
+                             "option":"Cirrhotic"
+                        },
+                        {
+                            "checkboxName":"Intrahepatic ducts dilation",
+                            "type": "required_Fixed",
+                            "option": "Moderate"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Distension",
+                            "type": "required_Fixed",
+                            "option":"Collapsed"
+                        },
+                        {
+                             "checkboxName":"Cholelithiasis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cholecystitis ?",
+                            "type": "required_Fixed",
+                            "option": "Moderate"
+                            
+                        },
+                        {
+                            "checkboxName":"Probe Tenderness",
+                            "type": "required_Fixed",
+                            "option": "Moderate"
+                            
+                        }]
+                },
+                "CBD": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Dilated"
+                    }]
+                    
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Enlarged"
+                    }]
+                  
+                },
+                "Right kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Enlarged"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"                              
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"Moderate"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                   
+                },
+                "Left kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Enlarged"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"  
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"Moderate"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Aorta": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Aneurysm(>30mm)"
+                    }]
+                   
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised"
+                },
+                "RIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Appendix",
+                        "type": "required_Fixed",
+                        "option":"Appendicitis"
+                        
+                    },
+                    {
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "Moderate"
+                        
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    }]
+                },
+                "LIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "Moderate"
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    }]
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }   
+        }
+    },
+    {   
+        "scenario": "ALLCommentsWithLastOptionMandatory",        
+        "ALLCommentsWithLastOptionMandatory":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Others",
+                            "othersComment":"other comment"
+                        },
+                        {
+                             "checkboxName":"Liver surface",
+                             "type": "required_Fixed",
+                             "option":"Others",
+                             "othersComment":"other comment"
+                        },
+                        {
+                            "checkboxName":"Intrahepatic ducts dilation",
+                            "type": "required_Fixed",
+                            "option":"Others",
+                            "othersComment":"other comment"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }
+                        ]
+                    
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Distension",
+                            "type": "required_Fixed",
+                            "option":"Others",
+                             "othersComment":"other comment"
+                        },
+                        {
+                             "checkboxName":"Cholelithiasis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cholecystitis ?",
+                            "type": "required_Fixed",
+                            "option":"Others",
+                             "othersComment":"other comment"
+                            
+                        },
+                        {
+                            "checkboxName":"Probe Tenderness",
+                            "type": "required_Fixed",
+                            "option":"Others",
+                            "othersComment":"other comment"
+                            
+                        }]
+                },
+                "CBD": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Prominent"
+                    }]
+                    
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Others",
+                        "othersComment":"other comment"
+                    }]
+                  
+                },
+                "Right kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Others",
+                             "othersComment":"other comment"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"                              
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "option":"Others",
+                             "othersComment":"other comment"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                   
+                },
+                "Left kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Others",
+                             "othersComment":"other comment"
+                            
+                        },
+                        {
+                            "checkboxName":"Any Calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"  
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"Others",
+                             "othersComment":"other comment"
+                             
+                        },
+                        {
+                            "checkboxName":"Any Solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Aorta": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Ectatic(>20mm)"
+                    }]
+                   
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised"
+                },
+                "RIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Appendix",
+                        "type": "required_Fixed",
+                        "option":"Normal appendix seen"
+                        
+                    },
+                    {
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "Mild"
+                        
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    }]
+                },
+                "LIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Probe tenderness:",
+                        "type": "required_Fixed",
+                        "option": "Mild"
+                        
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "type": "required_Fixed",
+                        "option": "Present"
+                        
+                    }]
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+        }
+    },
+    {
+        "scenario": "AllCheckboxesWith1OptionandTextArea",        
+        "AllCheckboxesWith1OptionandTextArea":{
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [
+                        {
+                            "checkboxName":"Cyst",
+                            "option":"No"    
+                        },
+                        {
+                            "checkboxName":"Liver elastography",
+                            "textArea":"Text Area"                                           
+                        },
+                        {
+                            "checkboxName":"Surgery",
+                            "option":"Rt lobe partial hepatectomy"
+                        },
+                        {
+                            "checkboxName":"Pneumobilia",
+                            "textArea":"Text Area"  
+                        },
+                        {
+                            "checkboxName":"Peripotal cuffing / starry sky appearance",
+                            "textArea":"Text Area"  
+                        },
+                        {
+                            "checkboxName":"Patient is tall & hence liver is likely normal in size",
+                            "textArea":"Text Area"  
+                        },
+                        {
+                            "checkboxName":"Suboptimal liver visualisation through subcostal approach. Could only be assessed via intercostal approach.",
+                            "textArea":"Text Area"  
+                        },
+                        {
+                            "checkboxName":"Suboptimal due to",                    
+                            "option": "Mid Pole"
+                        },
+                        {
+                            "checkboxName":"Riedel lobe",
+                            "textArea":"Text Area"  
+                        },
+                        {   
+                            "checkboxName":"Free text",
+                            "textArea":"Text Area"                                                   
+                        }]
+                },
+                                 
+                "Portal vein":
+                {
+                    "option":"Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Diameter",                       
+                            "option":"Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Flow direction",
+                            "option":"Hepatopetal (towards liver)"
+                        },
+                        {
+                            "checkboxName":"Velocity",
+                            "option":"Normal(13 to 23cm/s)",
+                            "cm/sec":"10"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "textArea":"freetext text area"
+                        },
+                        {
+                            "checkboxName":"Portosystemic collaterals",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Recanalisation of paraumbilical vein",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Suboptimal due to",
+                            
+                            "option": "Mid Pole"
+                        },
+                        {
+                            "checkboxName":"Portal hypertension",
+                            "textArea": "text area"
+                        }]
+                },
+                "Gallbladder":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [
+                        {
+                            "checkboxName":"Wall Thickness",
+                            "option": "Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Pericholecystic odema",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Pericholecystic Hyperaemia",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Adenomyomatosis",
+                            "option": "Diffuse"
+                            
+                        },
+                        {
+                            "checkboxName":"Contracted gallbladder",
+                            "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Debris",
+                            "option": "No"
+                            
+
+                        },
+                        {
+                            "checkboxName":"Polyp",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Fundal septum",
+                            "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Post cholecystectomy status",
+                            "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Porcelain gallbladder",
+                            "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Sludge",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Suboptimal due to",
+                            
+                            "option": "Lower Pole"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "textArea": "text area"
+                        }]
+                },
+                "CBD": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Pneumobilia",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"CBD Calculi",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                    
+                },
+                "Pancreas":
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Fatty replacement",
+                        "option":"No"
+                        
+                    },
+                    {
+                        "checkboxName":"MPD Dilated",
+                        "option": "No"
+                      
+                        
+                    },
+                     {
+                        "checkboxName":"Cyst",
+                        "option": "No"
+                      
+                        
+                    },
+                     {
+                        "checkboxName":"Solid lesion",
+                        "option": "No"
+                      
+                        
+                    },
+                    {
+                            "checkboxName":"Suboptimal visualisation due to overlying bowel gas",
+                            
+                            "othersComment":"Pancreatic head other comment"
+                    },
+                    {
+                            "checkboxName":"Suboptimal due to",
+                            
+                            "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Spleen": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Solid lesion",
+                        "option": "No"                     
+                    },               
+                   {
+                        "checkboxName":"Cyst",
+                        "option":"No"
+                    },             
+                    {
+                        "checkboxName":"Splenunculus",
+                        "textArea": "text area"
+                        
+                    }]
+                  
+                },
+                "Right kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Compensatory hypertrophy",
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Cortical scarring",
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Cyst (Cortical)",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cyst  (Parapelvic)",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Extrarenal pelvis",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Horshoe kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Hypertrophied column of bertin",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Loss of cortico-medullary differentiation",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Low position of kidney than normal",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Malrotation",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Medullary sponge kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Normal appearance of kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Persistent foetal lobulations",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Total Nephrectomy",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Partial Nephrectomy",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Renal pelvis fullness",
+                            "dropdownOptions": "Prevoid state,Post void state",
+                            "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Suboptimal visualisation of kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                             "textArea":"text area"
+                        }
+                            
+                        ]
+                   
+                },
+                "Left kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Compensatory hypertrophy",
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Cortical scarring",
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Cyst (Cortical)",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cyst  (Parapelvic)",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Extrarenal pelvis",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Horshoe kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Hypertrophied column of bertin",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Loss of cortico-medullary differentiation",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Low position of kidney than normal",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Malrotation",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Medullary sponge kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Normal appearance of kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Persistent foetal lobulations",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Total Nephrectomy",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Partial Nephrectomy",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Renal pelvis fullness",
+                            "dropdownOptions": "Prevoid state,Post void state",
+                            "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Suboptimal visualisation of kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                             "textArea":"text area"
+                        }]
+                    
+                },
+                "Aorta": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Atheromatous calcification",
+                        "textArea": "text area"                    
+                    },               
+                   {
+                        "checkboxName":"Suboptiomal visualisation due to overlying bowel gas",
+                        "textArea": "text area"
+                    },
+                     {
+                        "checkboxName":"Tortuous aorta",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        
+                        "textArea": "text area" 
+                    },             
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                        
+                    }]
+                   
+                },
+                "Free fluid": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [           
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Lymph nodes": 
+                {
+                    "option": "None visualised"
+                },
+                "RIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [
+                    {
+                        "checkboxName":"Intussusception",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of  RIF",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        
+                        "textArea": "text area"
+                    }]
+                },
+                "LIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Intussusception",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of  LIF",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        
+                        "textArea": "text area"
+                    }]
+                },
+                "Other findings": 
+                {
+                    "option": "Comments",
+                    "textArea": "otherfindings text"
+                }
+            }
+        }
+    }
+
+]

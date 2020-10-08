@@ -1,0 +1,221 @@
+[
+    {
+    "username": "user@test.com",
+    "password": "abcd1234",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "General Ultrasound":["Abdominal USCalc","Charts","Renal USCalc","Charts","Pelvis USCalc","Hernia US","Blank US","Lump assessment"],
+    "pageName":"Abdominal US",
+
+    "GeneralDetails":
+    {
+        "firstName":"gallbladderchanges_1",
+        "lastname":"yes",
+        "patientid":"123",
+        "accessid": "345",
+        "site-name":"567"
+    },
+    "clinicalHx":
+        {   
+
+            "referral":"Clinical Hx Referral String",
+            "hxFromPatient":
+            {
+                "option": "No"
+                
+            },
+            "surgicalHx":
+            {
+                "option":"No"
+                
+            },
+            "comparison":
+            {
+                "option": "No"
+                
+            },
+            "specificRoi": 
+            {
+                "option": "No"
+              
+            },
+            "ScanQuality":
+            {
+                "option": "Optimal"
+                
+            }
+
+        },
+    "findings":
+        {
+            "liver":
+                {
+                    "option": "NAD"
+                 
+                },
+            "portalVein":
+                {
+                    "option":"NAD"
+                    
+                },
+            "gallbladder":
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Distension",
+                        "type": "required_Fixed",
+                        "option":"Adequate"
+                    },
+                    {
+                         "checkboxName":"Cholelithiasis ?",
+                         "type": "required_Fixed",
+                         "option":"No"
+                    },
+                    {
+                        "checkboxName":"Cholecystitis ?",
+                        "type": "required_Fixed",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Probe Tenderness",
+                        "type": "required_Fixed",
+                        "option": "No"
+                        
+                    },
+                    {
+                        "checkboxName":"Wall Thickness",
+                        "option": "Normal"
+                    },
+                    {
+                        "checkboxName":"Pericholecystic odema",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Pericholecystic Hyperaemia",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Adenomyomatosis",
+                        "option": "Diffuse"
+                        
+                    },
+                    {
+                        "checkboxName":"Contracted gallbladder",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Debris",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Polyp",
+                        "option": "Yes",
+                        "option1": "1",
+                        "inputBox":{
+                            "inputBoxName": "Single Polyp measuring up to",
+                            "value": "Input box value single"
+                        }
+                    },
+                    {
+                        "checkboxName":"Fundal septum",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Post cholecystectomy status",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Porcelain gallbladder",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Sludge",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        "dropdownOptions": "BMI,High liver position",
+                        "option": "Mid Pole"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+              
+                },
+            "cbd":
+            {
+                "option": "NAD"
+                
+            },
+            "pancreas":
+            {
+                "option": "NAD"
+            },
+            "spleen":
+            {
+                "option": "NAD"
+            },
+            "rightkidney":
+            {
+                "option": "NAD"
+            },
+            "leftkidney":
+            {
+                "option": "NAD"
+            },
+             "aorta":
+                {
+                    "option": "NAD"
+                
+                },
+            "rif":
+            {
+                "option": "NAD"
+            },
+            "lif":
+            {
+                "option": "NAD"
+            },
+            "freefluid":
+            {
+                "option": "No"
+            },   
+            "lymphnodes":
+            {
+                "option": "None visualised"
+            },
+            "otherfindings":
+                {
+                    "option": "None"
+                      
+                }
+
+        },    
+    "conclusions":
+        {
+            "conclusion":
+                {
+                    "option": "NAD"
+                    
+                },
+            "furtherapt":
+                {
+                    "option": "No"
+                 
+                },
+            "followup":
+                {
+                    "option": "No"
+                    
+                }
+        }
+   
+  
+
+
+    }
+]
+
+

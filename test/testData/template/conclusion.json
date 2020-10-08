@@ -1,0 +1,169 @@
+[
+    {"scenario": ""},
+    {
+        "scenario": "ALLNAD",
+    	"ALLNAD":{
+    		"comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                "Comment":
+                {
+                    "option": "NAD"
+                }
+              
+            }
+    	}
+    },
+     {
+        "scenario": "AllNadWithSizeRoi",
+        "AllNadWithSizeRoi":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                "Comment":
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    }, 
+    {
+        "scenario": "AllNadWithSize",
+        "AllNadWithSize":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                 "Comment":
+                {
+                    "option": "NAD"
+                }
+                
+            }
+        }
+    }, 
+     {
+        "scenario": "AllNadWithNmRoi",
+        "AllNadWithNmRoi":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                "Comment":
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    }, 
+    {
+        "scenario": "AllNadWithNm",
+        "AllNadWithNm":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                 "Comment":
+                {
+                    "option": "NAD"
+                }
+                
+            }
+        }
+    },
+    {
+        "scenario": "ALLCommentsWith1OptionMandatory",
+        "ALLCommentsWith1OptionMandatory":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                 "Comment":
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    },
+     {
+        "scenario": "ALLCommentsWith2OptionMandatory",
+        "ALLCommentsWith2OptionMandatory":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                "Comment":
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    },
+       {
+        "scenario": "ALLCommentsWith3OptionMandatory",
+        "ALLCommentsWith3OptionMandatory":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                 "Comment":
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    }, 
+      {
+        "scenario": "ALLCommentsWithLastOptionMandatory",
+        "ALLCommentsWithLastOptionMandatory":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                "Comment":
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    },
+     {
+        "scenario": "AllCheckboxesWith1OptionandTextArea",
+        "AllCheckboxesWith1OptionandTextArea":{
+            "comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                 "Comment":
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    }
+
+
+
+]

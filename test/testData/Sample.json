@@ -1,0 +1,257 @@
+[
+    {
+    "username": "user@test.com",
+    "password": "abcd1234",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "firstname":"123",
+    "lastname":"123",
+    "patientid":"123",
+    "accessid": "345",
+    "site-name":"567",
+    "rooms":["Baldivis - US 2", "Others"],
+    "General Ultrasound":["Abdominal USCalc","Charts","Renal USCalc","Charts","Pelvis USCalc","Hernia US","Blank US","Lump assessment"],
+    "pageName":"Abdominal US",
+    "values":"hello this is clinical test",
+    "hx":"Yes",
+    "surgical":"No",
+    "comparision":"No",
+    "specific_roi":"Yes",
+    "scan_quality":"Optimal",
+    "liver":"NAD",
+    "portalvein":"NAD",
+    "gallbladder":"Comments",
+    "cbd":"NAD",
+    "pancreas":"NAD",
+    "spleen":"NAD",
+    "rightkidney":"NAD",
+    "leftkidney":"NAD",
+    "aorta":"NAD",
+    "rif":"NAD",
+    "lif":"Comments",
+    "freefluid":"No",
+    "lymphnodes":"None visualised",
+    "otherfindings":"None",
+    "conclusion":"NAD",
+    "furtherapt":"No",
+    "followup":"No",
+    "clinicalHx":
+    {
+
+        "referral":"Clinical Hx Referral String",
+        "hxFromPatient":
+        {
+            "option": "Yes",
+            "textArea": "hx From Patient text"
+        },
+        "surgicalHx":
+        {
+            "option":"Yes",
+            "dropdownOptions":"Cholecystectomy,Rt. Total Nephrectomy",
+            "textArea": "Surgical Hx text"
+        },
+        "comparison":
+        {
+            "option": "Yes",
+            "modalityOptions": "MRI scan,Ultrasound",
+            "providerOptions": "Unsure,Western Radiology",
+            "subField": "Unknown Date",
+            "textArea": "Comparison string comments"
+        },
+        "specificRoi":
+        {
+            "option": "Yes",
+            "dropdownOptions": "Rt Upper quadrant,RIF",
+            "textArea": "Special ROI comments"
+        },
+        "ScanQualit":
+        {
+            "option": "Suboptimal",
+            "subOption":
+            [{
+                "checkboxName": "BMI",
+                "comments": "BMI comment section"
+            },
+            {
+                "checkboxName": "Free text",
+                "comments": "Free text comment section"
+            }]
+        }
+
+    },
+    "findings":
+    {
+        "liver":
+        {
+            "option": "Comments",
+            "subOption":
+            [{
+                "option": "size",
+                "type": "required_Fixed",
+                "radioOption": "Others",
+                "textArea": "Size text comment section"
+            },
+            {
+                "option": "Liver surface",
+                "type": "required_Fixed",
+                "radioOption": "Others",
+                "textArea": "Liver surface comment section"
+            },
+            {
+                "option":"No",
+                "radioOption": "",
+                "textArea": ""
+            }
+            ]
+        },
+        "portalVein":
+        {
+            "option":"Comments",
+            "checkboxOptions":
+            [{
+                "checkboxName":"Diameter",
+                "subCheckboxName": "NM",
+                "option":"Others",
+                "othersComment":"other comment"
+            },
+            {
+                "checkboxName":"Flow direction",
+                "option":"No flow"
+            },
+            {
+                "checkboxName":"Velocity",
+                "option":"Increased(>23cm/s)",
+                "cm/sec":"10"
+            },
+            {
+                "checkboxName":"Portal hypertension",
+                "textArea": "text area"
+            }]
+        },
+        "gallbladder":
+        {
+            "option": "Comments",
+            "checkboxOptions":
+            [{
+                "checkboxName":"Distension",
+                "type": "required_Fixed",
+                "option":"Suboptimal"
+            },
+            {
+                 "checkboxName":"Cholelithiasis ?",
+                 "type": "required_Fixed",
+                 "option":"No"
+            },
+            {
+                "checkboxName":"Cholecystitis ?",
+                "type": "required_Fixed",
+                "option": "Severe"
+            },
+            {
+                "checkboxName":"Probe Tenderness",
+                "type": "required_Fixed",
+                "option": "Others",
+                "othersComment":"other comment"
+            },
+            {
+                "checkboxName":"Wall Thickness",
+                "option": "Severely thickened"
+            },
+            {
+                "checkboxName":"Pericholecystic odema",
+                "option": "Severe"
+            },
+            {
+                "checkboxName":"Pericholecystic Hyperaemia",
+                "option": "Severe"
+            },
+            {
+                "checkboxName":"Adenomyomatosis",
+                "option": "Focal",
+                "locationDropdown": "body"
+            },
+            {
+                "checkboxName":"Contracted gallbladder",
+                "textArea": "text area"
+            },
+            {
+                "checkboxName":"Debris",
+                "option": "Severe"
+            },
+            {
+                "checkboxName":"Polyp",
+                "option": "Yes",
+                "option1": "2",
+                "inputBox":{
+                    "inputBoxName": "Largest Polyp measuring up to",
+                    "value": "Input box value"
+                }
+            },
+            {
+                "checkboxName":"Fundal septum",
+                "textArea": "text area"
+            },
+            {
+                "checkboxName":"Post cholecystectomy status",
+                "textArea": "text area"
+            },
+            {
+                "checkboxName":"Porcelain gallbladder",
+                "textArea": "text area"
+            },
+            {
+                "checkboxName":"Sludge",
+                "option": "Severe"
+            },
+            {
+                "checkboxName":"Suboptimal due to",
+                "dropdownOptions": "BMI,High liver position",
+                "option": "Mid Pole"
+            },
+            {
+                "checkboxName":"Free text",
+                "textArea": "text area"
+            }]
+        },
+        "cbd":
+        {
+            "option": "Comments",
+            "checkboxOptions":
+            [{
+                "checkboxName":"Size",
+                "type": "required_Fixed",
+                "option":"Normal"
+            },
+            {
+                "checkboxName":"CBD Calculi",
+                "option": "Yes",
+                "option1": "2",
+                "inputBox":{
+                    "inputBoxName": "Largest CBD Calculi measuring up to",
+                    "value": "Input box value"
+                }
+            },
+            {
+                "checkboxName":"Pneumobilia",
+                "textArea": "text area"
+            },
+            {
+                "checkboxName":"Free text",
+                "textArea": "text area"
+            }]
+        }
+        ,
+        "Pancreas":
+        {
+            "option": "Comments",
+            "checkboxOptions":
+            [{
+            }
+        ]
+
+        }
+    }
+    
+    }
+]
+
+

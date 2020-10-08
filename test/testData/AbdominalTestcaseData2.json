@@ -1,0 +1,185 @@
+[
+    {
+    "username": "user@test.com",
+    "password": "abcd1234",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Others"],
+    "General Ultrasound":["Abdominal USCalc","Charts","Renal USCalc","Charts","Pelvis USCalc","Hernia US","Blank US","Lump assessment"],
+    "pageName":"Abdominal US",
+
+    "GeneralDetails":
+    {
+        "firstName":"no",
+        "lastname":"123",
+        "patientid":"123",
+        "accessid": "345",
+        "site-name":"567",
+        "gender": "male"
+    },
+    "clinicalHx":
+        {   
+
+            "referral":"Clinical Hx Referral String",
+            "hxFromPatient":
+            {
+                "option": "Yes",
+                "textArea": "hx From Patient text"
+            },
+            "surgicalHx":
+            {
+                "option":"Yes",
+                "dropdownOptions":"Cholecystectomy,Rt. Total Nephrectomy",
+                "textArea": "Surgical Hx text"
+            },
+            "comparison":
+            {
+                "option": "Yes",
+                "modalityOptions": "MRI scan,Ultrasound",
+                "providerOptions": "Q Scan,Unsure,Western Radiology",
+                "subField": "Date",
+                "date": "21/08/2020",
+                "textArea": "Comparison string comments"
+            },
+            "specificRoi": 
+            {
+                "option": "Yes",
+                "dropdownOptions": "Rt Upper quadrant,RIF",
+                "textArea": "Special ROI comments"
+            },
+            "ScanQuality":
+            {
+                "option": "Suboptimal",
+                "checkboxOptions":
+                [{
+                    "checkboxName": "BMI",
+                    "comments": "BMI comment section"
+                },
+                {
+                    "checkboxName": "Free text",
+                    "comments": "Free text comment section" 
+                }]
+            }
+
+        },
+    "findings":
+        {
+            "liver":
+                {
+                    "option": "NAD"
+                 
+                },
+            "portalVein":
+                {
+                    "option":"NAD"
+                },
+            "cbd":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Size",
+                    "type": "required_Fixed",
+                    "option":"Normal"
+                },
+                {
+                    "checkboxName":"CBD Calculi",
+                    "option": "Yes",
+                    "option1": "2",
+                    "inputBox":{
+                        "inputBoxName": "Largest CBD Calculi measuring up to",
+                        "value": "Input box value"
+                    }
+                },
+                {
+                    "checkboxName":"Pneumobilia",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                }]
+            },
+            "pancreas":
+            {
+                "option": "NAD"
+            },
+            "spleen":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName": "Calcification",
+                    "textArea": "Working fine"
+                }]
+            },
+            "leftkidney":
+            {
+                "option": "NAD"
+            },
+             "aorta":
+                {
+                    "option": "NAD"
+                
+                },
+            "rif":
+            {
+                "option": "NAD"
+            },
+            "lif":
+            {
+                "option": "NAD"
+            },
+            "freefluid":
+            {
+                "option": "No"
+            },   
+            "lymphnodes":
+            {
+                "option": "None visualised"
+            },
+            "otherfindings":
+                {
+                    "option": "Comments",
+                    "textArea": "Conclude the report otherfindings"   
+                }
+
+        },    
+    "conclusions":
+        {
+            "conclusion":
+                {
+                    "option": "Comments",
+                    "textArea": "Conclude the report conclusion"
+                },
+            "furtherapt":
+                {
+                    "option": "No"
+                 
+                },
+            "followup":
+                {
+                    "option": "Yes",
+                    "textArea": "Conclude the report followup"
+                }
+        },
+    "UpdateFields":
+    {
+        "conclusions":
+        {
+            "furtherapt":
+                {
+                    "option": "Yes",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Ultrasound examination",
+                        "textArea": "Updated comment and field"
+                    }]
+                 
+                }
+        }
+
+    }
+    }
+]
+
+

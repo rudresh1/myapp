@@ -1,0 +1,30 @@
+{
+	"MandatoryWithFirstOptions":{
+		"clinicalHx":
+        {   
+
+            "Clinical Hx (Referral)":"Manadatory With First Option",
+            "Hx from patient":
+            {
+                "option": "No"
+            },
+            "Surgical Hx":
+            {
+                "option":"No"
+            },
+            "comparison":
+            {
+                "option": "No"
+            },
+            "Specific ROI": 
+            {
+                "option": "No"
+            },
+            "Scan quality":
+            {
+                "option": "Optimal"
+            }
+
+        }
+	}
+}

@@ -1,0 +1,245 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "PrimeRadiology",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "General Ultrasound":["Abdominal USCalc","Charts","Renal USCalc","Charts","Pelvis USCalc","Hernia US","Blank US","Lump assessment"],
+    "pageName":"Abdominal US",
+
+    "GeneralDetails":
+    {
+        "firstName":"new",
+        "lastname":"123",
+        "patientid":"123",
+        "accessid": "345",
+        "site-name":"567",
+        "dob":"27/07/2020"
+    },
+    "clinicalHx":
+        {   
+
+            "templateType": "clinicalHx_MandatoryOnly"
+
+        },
+    "findings":
+        {
+            "liver":
+                {
+                    "option": "Comments",
+                    "subOption":
+                    [{
+                        "option": "size",
+                        "type": "required_Fixed",
+                        "radioOption": "Others",
+                        "textArea": "Size text comment section"
+                    },
+                    {
+                        "option": "Liver surface",
+                        "type": "required_Fixed",
+                        "radioOption": "Others",
+                        "textArea": "Liver surface comment section"
+                    },
+                    {
+                        "option":"Fatty liver",
+                        "type": "",
+                        "radioOption": "Others",
+                        "textArea": "fatty liver text"
+                    }
+                    ]
+                },
+            "portalVein":
+                {
+                    "option":"Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Diameter",
+                        "subCheckboxName": "NM",
+                        "option":"Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Flow direction",
+                        "option":"No flow"
+                    },
+                    {
+                        "checkboxName":"Velocity",
+                        "option":"Increased(>23cm/s)",
+                        "cm/sec":"10"
+                    },
+                    {
+                        "checkboxName":"Portal hypertension",
+                        "textArea": "text area"
+                    }]
+                },
+            "gallbladder":
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Distension",
+                        "type": "required_Fixed",
+                        "option":"Suboptimal"
+                    },
+                    {
+                         "checkboxName":"Cholelithiasis ?",
+                         "type": "required_Fixed",
+                         "option":"No"
+                    },
+                    {
+                        "checkboxName":"Cholecystitis ?",
+                        "type": "required_Fixed",
+                        "option": "Severe"
+                    },
+                    {
+                        "checkboxName":"Probe Tenderness",
+                        "type": "required_Fixed",
+                        "option": "Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Wall Thickness",
+                        "option": "Severely thickened"
+                    },
+                    {
+                        "checkboxName":"Pericholecystic odema",
+                        "option": "Severe"
+                    },
+                    {
+                        "checkboxName":"Pericholecystic Hyperaemia",
+                        "option": "Severe"
+                    },
+                    {
+                        "checkboxName":"Adenomyomatosis",
+                        "option": "Focal",
+                        "locationDropdown": "body"
+                    },
+                    {
+                        "checkboxName":"Contracted gallbladder",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Debris",
+                        "option": "Severe"
+                    },
+                    {
+                        "checkboxName":"Polyp",
+                        "option": "Yes",
+                        "option1": "2",
+                        "inputBox":{
+                            "inputBoxName": "Largest Polyp measuring up to",
+                            "value": "Input box value"
+                        }
+                    },
+                    {
+                        "checkboxName":"Fundal septum",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Post cholecystectomy status",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Porcelain gallbladder",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Sludge",
+                        "option": "Severe"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        "dropdownOptions": "BMI,High liver position",
+                        "option": "Mid Pole"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+            "cbd":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Size",
+                    "type": "required_Fixed",
+                    "option":"Normal"
+                },
+                {
+                    "checkboxName":"CBD Calculi",
+                    "option": "Yes",
+                    "option1": "2",
+                    "inputBox":{
+                        "inputBoxName": "Largest CBD Calculi measuring up to",
+                        "value": "Input box value"
+                    }
+                },
+                {
+                    "checkboxName":"Pneumobilia",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                }]
+            },
+         
+             "aorta":
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName": "Tortuous aorta",
+                        "textArea": "Tortuous aorta comment section"
+                    },
+                    {
+                        "checkboxName": "Suboptiomal visualisation due to overlying bowel gas",
+                        "textArea": "Suboptiomal visualisation due to overlying bowel gas comment section" 
+                    },
+                    {
+                        "checkboxName": "Atheromatous calcification",
+                        "commetextAreants": "Atheromatous calcification comment section" 
+                    }]
+                },   
+            "otherfindings":
+                {
+                    "option": "Comments",
+                    "textArea": "Conclude the report otherfindings"   
+                }
+
+        },    
+    "conclusions":
+        {
+            "conclusion":
+                {
+                    "option": "Comments",
+                    "textArea": "Conclude the report conclusion"
+                },
+            "furtherapt":
+                {
+                    "option": "Yes",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName": "MRI",
+                        "textArea": "MRI comment section"
+                    },
+                    {
+                        "checkboxName": "CT-guided injection",
+                        "textArea": "FCT-guided injection comment section" 
+                    }]
+                },
+            "followup":
+                {
+                    "option": "Yes",
+                    "textArea": "Conclude the report followup"
+                }
+        }
+   
+  
+
+
+    }
+]
+
+

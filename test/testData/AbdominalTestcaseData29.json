@@ -1,0 +1,164 @@
+[
+    {
+    "username": "user@test.com",
+    "password": "abcd1234",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "General Ultrasound":["Abdominal USCalc","Charts","Renal USCalc","Charts","Pelvis USCalc","Hernia US","Blank US","Lump assessment"],
+    "pageName":"Abdominal US",
+
+    "GeneralDetails":
+    {
+        "firstName":"pancreas_changes2",
+        "lastname":"yes",
+        "patientid":"123",
+        "accessid": "345",
+        "site-name":"567"
+    },
+    "clinicalHx":
+        {   
+
+            "referral":"Clinical Hx Referral String",
+            "hxFromPatient":
+            {
+                "option": "No"
+                
+            },
+            "surgicalHx":
+            {
+                "option":"No"
+                
+            },
+            "comparison":
+            {
+                "option": "No"
+                
+            },
+            "specificRoi": 
+            {
+                "option": "No"
+              
+            },
+            "ScanQuality":
+            {
+                "option": "Optimal"
+                
+            }
+
+        },
+    "findings":
+        {
+            "liver":
+                {
+                    "option": "NAD"
+                 
+                },
+            "portalVein":
+                {
+                    "option":"NAD"
+                    
+                },
+            "gallbladder":
+                {
+                    "option": "NAD"
+              
+                },
+            "cbd":
+            {
+                "option": "NAD"
+                
+            },
+            "pancreas":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Fatty replacement",
+                    "option":"Moderate"
+                },
+                {
+                    "checkboxName":"MPD Dilated",
+                    "option": "Moderate"
+                    
+                },
+                {
+                        "checkboxName":"Suboptimal visualisation due to overlying bowel gas",
+                        "dropdownOptions": "Pancreatic head",
+                        "othersComment":"Pancreatic head other comment"
+                },
+                {
+                        "checkboxName":"Suboptimal due to",
+                        "dropdownOptions": "BMI,High liver position,Others",
+                        "othersComment":"other comment"
+                },
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                }]
+            },
+            "spleen":
+            {
+                "option": "NAD"
+            },
+            "rightkidney":
+            {
+                "option": "NAD"
+            },
+            "leftkidney":
+            {
+                "option": "NAD"
+            },
+             "aorta":
+                {
+                    "option": "NAD"
+                
+                },
+            "rif":
+            {
+                "option": "NAD"
+            },
+            "lif":
+            {
+                "option": "NAD"
+            },
+            "freefluid":
+            {
+                "option": "No"
+            },   
+            "lymphnodes":
+            {
+                "option": "None visualised"
+            },
+            "otherfindings":
+                {
+                    "option": "None"
+                      
+                }
+
+        },    
+    "conclusions":
+        {
+            "conclusion":
+                {
+                    "option": "NAD"
+                    
+                },
+            "furtherapt":
+                {
+                    "option": "No"
+                 
+                },
+            "followup":
+                {
+                    "option": "No"
+                    
+                }
+        }
+   
+  
+
+
+    }
+]
+
+

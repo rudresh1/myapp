@@ -1,0 +1,17 @@
+/shelf/
+/workspace.xml
+*.xml
+*primeus.iml
+/.gradle/
+*.DS_Store
+*.libspec
+*output.xml
+*log.html
+*report.html
+/bin/
+*.png
+.classpath
+/libspecs/
+/primeus.iml
+*.xml
+*primeus.iml

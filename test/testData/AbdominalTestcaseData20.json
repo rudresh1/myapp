@@ -1,0 +1,782 @@
+[
+    {
+    "username": "user@test.com",
+    "password": "abcd1234",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "General Ultrasound":["Abdominal USCalc","Charts","Renal USCalc","Charts","Pelvis USCalc","Hernia US","Blank US","Lump assessment"],
+    "pageName":"Abdominal US",
+
+    "GeneralDetails":
+    {
+        "firstName":"all",
+        "lastname":"Yes",
+        "patientid":"123",
+        "accessid": "345",
+        "site-name":"567"
+    },
+    "clinicalHx":
+        {   
+
+            "referral":"Clinical Hx Referral String",
+            "hxFromPatient":
+            {
+                "option": "Yes",
+                "textArea": "hx From Patient text"
+                
+            },
+            "surgicalHx":
+            {
+                "option":"Yes",
+                "dropdownOptions":"Cholecystectomy,Rt. Total Nephrectomy,Partial hepatectomy,Spleenectomy,Lt. Total Nephrectomy,Rt. Transplant Kidney,Lt. Transplant Kidney,Rt. Partial Nephrectomy,Lt. Partial Nephrectomy,Appendicectomy,Others",
+                "textArea": "Surgical Hx text with all options"
+                
+            },
+            "comparison":
+            {
+                "option": "Yes",
+                "modalityOptions": "MRI scan,Ultrasound,Biopsy,Doppler,CT scan,Mammo,X-ray,Unsure",
+                "providerOptions": "Unsure,Western Radiology,Booragoon Radiology,Insight,PRC,Prime Radiology,RPH,SKG,RDH,FSH,Primary Healthcare,Others,Capital Radiology,I-Med,Unknown",
+                "subField": "Unknown Date",
+                "textArea": "Comparison string comments with all data"
+                
+            },
+            "specificRoi": 
+            {
+                "option": "Yes",
+                "dropdownOptions": "Rt Upper quadrant,RIF,Rt hypochondrium,Rt lumbar,Rt lower quadrant,Epigastic region,Umbilical region,Hypogastrium,Lt hypochondrium,Lt upper quadrant,Lt lumbar,LIF,Lt lower quadrant,Others",
+                "textArea": "Special ROI comments with all options"
+              
+            },
+            "ScanQuality":
+            {
+                "option": "Suboptimal",
+                 "checkboxOptions":
+                [{
+                    "checkboxName": "BMI",
+                    "comments": "BMI comment section"
+                },
+                {
+                    "checkboxName": "Difficult breath hold",
+                    "comments": "Difficult breath hold comment section" 
+                },
+                {
+                    "checkboxName": "Excessive bowel gas",
+                    "comments": "Excessive bowel gas comment section" 
+                },
+                {
+                    "checkboxName": "High liver position",
+                    "comments": "High liver position comment section" 
+                },
+                {
+                    "checkboxName": "Patient movement",
+                    "comments": "Patient movement comment section" 
+                },
+                {
+                    "checkboxName": "Lanuage barrier",
+                    "comments": "Lanuage barrier comment section" 
+                },
+                {
+                    "checkboxName": "Free text",
+                    "comments": "Free text comment section" 
+                }]
+                
+            }
+
+        },
+    "findings":
+        {
+            "liver":
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                         "checkboxName":"Liver surface",
+                         "type": "required_Fixed",
+                         "option":"Others",
+                         "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Intrahepatic ducts dilation",
+                        "type": "required_Fixed",
+                        "option":"Others",
+                        "othersComment":"other comment"
+                        
+                    },
+                    {
+                        "checkboxName":"Any Solid lesion ?",
+                        "type": "required_Fixed",
+                        "option": "No"
+                        
+                    },
+                    {
+                        "checkboxName":"Calcification",
+                        "textArea":"Text Area Calcification"
+                    },
+                    {
+                        "checkboxName":"Cyst",
+                        "option":"No"    
+                    },
+                    {
+                        "checkboxName":"Liver elastography",
+                        "textArea":"Text Area"                                           
+                    },
+                    {
+                        "checkboxName":"Surgery",
+                        "option":"Rt lobe partial hepatectomy"
+                    },
+                    {
+                        "checkboxName":"Pneumobilia",
+                        "textArea":"Text Area"  
+                    },
+                    {
+                        "checkboxName":"Peripotal cuffing / starry sky appearance",
+                        "textArea":"Text Area"  
+                    },
+                    {
+                        "checkboxName":"Patient is tall & hence liver is likely normal in size",
+                        "textArea":"Text Area"  
+                    },
+                    {
+                        "checkboxName":"Suboptimal liver visualisation through subcostal approach. Could only be assessed via intercostal approach.",
+                        "textArea":"Text Area"  
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",                    
+                        "option": "Mid Pole",
+                        "textArea":"Text Area" 
+                    },
+                    {
+                        "checkboxName":"Riedel lobe",
+                        "textArea":"Text Area"  
+                    },
+                    {   
+                        "checkboxName":"Free text",
+                        "textArea":"Text Area"                                                   
+                    }
+                    ]
+                 
+                },
+            "portalVein":
+                {
+                   "option":"Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Diameter",
+                        "subCheckboxName": "NM",
+                        "option":"Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Flow direction",
+                        "option":"No flow"
+                    },
+                    {
+                        "checkboxName":"Velocity",
+                        "option":"Increased(>23cm/s)",
+                        "cm/sec":"10"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea":"freetext text area"
+                    },
+                    {
+                        "checkboxName":"Portosystemic collaterals",
+                        "option": "Others",
+                        "othersComment":"other comment portosystemic collaterals"
+                    },
+                    {
+                        "checkboxName":"Recanalisation of paraumbilical vein",
+                        "option": "Others",
+                        "othersComment":"other comment Recanalisation of paraumbilical vein"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        "dropdownOptions": "BMI,High liver position",
+                        "option": "Mid Pole"
+                    },
+                    {
+                        "checkboxName":"Portal hypertension",
+                        "textArea": "text area"
+                    }]
+                    
+                },
+            "gallbladder":
+               {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Distension",
+                        "type": "required_Fixed",
+                        "option":"Not visualised"
+                    },
+                    {
+                         "checkboxName":"Cholelithiasis ?",
+                         "type": "required_Fixed",
+                         "option":"No"
+                    },
+                    {
+                        "checkboxName":"Cholecystitis ?",
+                        "type": "required_Fixed",
+                        "option": "Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Probe Tenderness",
+                        "type": "required_Fixed",
+                        "option": "Severe"
+                        
+                    },
+                    {
+                        "checkboxName":"Wall Thickness",
+                        "option": "Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Pericholecystic odema",
+                        "option": "Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Pericholecystic Hyperaemia",
+                        "option": "Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Adenomyomatosis",
+                        "option": "Focal",
+                        "locationDropdown": "body"
+                    },
+                    {
+                        "checkboxName":"Contracted gallbladder",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Debris",
+                        "option": "Others",
+                        "othersComment":"other comment"
+
+                    },
+                    {
+                        "checkboxName":"Polyp",
+                        "option": "Yes",
+                        "option1": "5-10",
+                        "inputBox":{
+                            "inputBoxName": "Largest Polyp measuring up to",
+                            "value": "Input box value"
+                        }
+                    },
+                    {
+                        "checkboxName":"Fundal septum",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Post cholecystectomy status",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Porcelain gallbladder",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Sludge",
+                        "option": "Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        "dropdownOptions": "BMI,High liver position",
+                        "option": "Lower Pole"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+              
+                },
+            "cbd":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Size",
+                    "type": "required_Fixed",
+                    "option":"Normal"
+                },
+                {
+                    "checkboxName":"CBD Calculi",
+                    "option": "Yes",
+                    "option1": ">10",
+                    "inputBox":{
+                        "inputBoxName": "Largest CBD Calculi measuring up to",
+                        "value": "Input box value"
+                    }
+                },
+                {
+                    "checkboxName":"Pneumobilia",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                }]
+                
+            },
+            "pancreas":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Fatty replacement",
+                    "option":"Others",
+                    "othersComment":"other comment"
+                },
+                {
+                    "checkboxName":"MPD Dilated",
+                    "option": "Others",
+                    "othersComment":"other comment"
+                    
+                },
+                {
+                        "checkboxName":"Suboptimal visualisation due to overlying bowel gas",
+                        "dropdownOptions": "Pancreatic head",
+                        "othersComment":"Pancreatic head other comment"
+                },
+                {
+                        "checkboxName":"Suboptimal due to",
+                        "dropdownOptions": "BMI,High liver position,Others",
+                        "othersComment":"other comment"
+                },
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                }]
+            },
+            "spleen":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Size",
+                    "option":"Not assessed"                   
+                },
+                {
+                    "checkboxName":"Solid lesion",
+                    "option": "No"                     
+                },               
+               {
+                    "checkboxName":"Cyst",
+                    "option":"No"
+                },             
+                {
+                    "checkboxName":"Splenunculus",
+                    "textArea": "text area"
+                    
+                }]
+            },
+            "rightkidney":
+            {
+                "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Any Calculi ?",
+                         "type": "required_Fixed",
+                         "option":"No"                      
+                    },
+                    {
+                        "checkboxName":"Any hydronephrosis ?",
+                         "type": "required_Fixed",
+                         "option":"Others",
+                         "othersComment":"others comment" 
+                    },                   
+                    {
+                        "checkboxName":"Compensatory hypertrophy",
+                         "textArea":"test area"
+                    },
+                    {
+                        "checkboxName":"Cortical scarring",
+                         "textArea":"test area"
+                    },
+                    {
+                        "checkboxName":"Cyst (Cortical)",
+                         "option":"No"
+                    },
+                    {
+                        "checkboxName":"Cyst  (Parapelvic)",
+                         "option":"No"
+                    },
+                    {
+                        "checkboxName":"Extrarenal pelvis",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Horshoe kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Hypertrophied column of bertin",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Loss of cortico-medullary differentiation",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Low position of kidney than normal",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Malrotation",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Medullary sponge kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Persistent foetal lobulations",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Total Nephrectomy",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Partial Nephrectomy",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Renal pelvis fullness",
+                        "dropdownOptions": "Prevoid state,Post void state",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal visualisation of kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                         "textArea":"text area"
+                    }
+                    ]
+            },
+            "leftkidney":
+            {
+                "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "type": "required_Fixed",
+                        "option":"Others",
+                        "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Any Calculi ?",
+                         "type": "required_Fixed",
+                         "option":"No"                      
+                    },
+                    {
+                        "checkboxName":"Any hydronephrosis ?",
+                         "type": "required_Fixed",
+                         "option":"Others",
+                         "othersComment":"others comment" 
+                    },                   
+                    {
+                        "checkboxName":"Compensatory hypertrophy",
+                         "textArea":"test area"
+                    },
+                    {
+                        "checkboxName":"Cortical scarring",
+                         "textArea":"test area"
+                    },
+                    {
+                        "checkboxName":"Cyst (Cortical)",
+                         "option":"No"
+                    },
+                    {
+                        "checkboxName":"Cyst  (Parapelvic)",
+                         "option":"No"
+                    },
+                    {
+                        "checkboxName":"Extrarenal pelvis",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Horshoe kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Hypertrophied column of bertin",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Loss of cortico-medullary differentiation",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Low position of kidney than normal",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Malrotation",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Medullary sponge kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Persistent foetal lobulations",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Total Nephrectomy",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Partial Nephrectomy",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Renal pelvis fullness",
+                        "dropdownOptions": "Prevoid state,Post void state",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal visualisation of kidney",
+                         "textArea":"text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                         "textArea":"text area"
+                    }
+                    ]
+            },
+             "aorta":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Size",
+                    "option":"Normal"                   
+                },
+                {
+                    "checkboxName":"Atheromatous calcification",
+                    "textArea": "text area"                    
+                },               
+               {
+                    "checkboxName":"Suboptiomal visualisation due to overlying bowel gas",
+                    "textArea": "text area"
+                },
+                 {
+                    "checkboxName":"Tortuous aorta",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Suboptimal due to",
+                    "dropdownOptions": "BMI,Others",
+                    "textArea": "text area" 
+                },             
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                    
+                }]
+                
+            },
+            "rif":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Appendix",
+                    "type": "required_Fixed",
+                    "option":"Others",
+                    "othersComment":"other comment"
+                },
+                {
+                    "checkboxName":"Probe tenderness:",
+                    "type": "required_Fixed",
+                    "option": "Others",
+                    "othersComment":"other comment"
+                    
+                },
+                {
+                    "checkboxName":"Fat stranding",
+                    "type": "required_Fixed",
+                    "option": "Absent"
+                    
+                },
+                {
+                    "checkboxName":"Free fluid",
+                    "type": "required_Fixed",
+                    "option": "Present"
+                    
+                },
+                {
+                    "checkboxName":"Abscess",
+                    "type": "required_Fixed",
+                    "option": "Present"
+                    
+                },
+                {
+                    "checkboxName":"Intussusception",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Normal appearance of  RIF",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Suboptimal due to",
+                    "dropdownOptions": "BMI,Others",
+                    "textArea": "text area"
+                }]
+            },
+            "lif":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [{
+                    "checkboxName":"Probe tenderness:",
+                    "type": "required_Fixed",
+                    "option": "Severe"
+                    
+                },
+                {
+                    "checkboxName":"Fat stranding",
+                    "type": "required_Fixed",
+                    "option": "Present"
+                    
+                },
+                {
+                    "checkboxName":"Free fluid",
+                    "type": "required_Fixed",
+                    "option": "Present"
+                    
+                },
+                {
+                    "checkboxName":"Abscess",
+                    "type": "required_Fixed",
+                    "option": "Absent"
+                    
+                },
+                {
+                    "checkboxName":"Intussusception",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Normal appearance of  LIF",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                },
+                {
+                    "checkboxName":"Suboptimal due to",
+                    "dropdownOptions": "BMI,Others",
+                    "textArea": "text area"
+                }]
+
+            },
+            "freefluid":
+            {
+                "option": "Comments",
+                "checkboxOptions":
+                [           
+                {
+                    "checkboxName":"Free text",
+                    "textArea": "text area"
+                }]
+            },   
+            "lymphnodes":
+            {
+                "option": "Normal LN"
+            },
+            "otherfindings":
+                {
+                    "option": "Comments",
+                    "textArea": "otherfindings text"
+                      
+                }
+
+        },    
+    "conclusions":
+        {
+            "conclusion":
+                {
+                    "option": "Comments",
+                    "textArea": "Conclude the report followup"
+                    
+                },
+            "furtherapt":
+                {
+                    "option": "Yes",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName": "MRI",
+                        "textArea": "MRI comment section"
+                    },
+                    {
+                         "checkboxName":"Date",
+                         "type": "required_Fixed",
+                         "option":"Unknown Date"
+                    },
+                    {
+                        "checkboxName": "Ultrasound examination",
+                        "textArea": "Ultrasound examination comment section" 
+                    },
+                    {
+                        "checkboxName": "Ultrasound-guided injection",
+                        "textArea": "Ultrasound-guided injection comment section" 
+                    },
+                    {
+                        "checkboxName": "X-ray examination",
+                        "textArea": "X-ray examination comment section" 
+                    },
+                    {
+                        "checkboxName": "CT-guided injection",
+                        "textArea": "FCT-guided injection comment section" 
+                    }]
+                 
+                },
+            "followup":
+                {
+                    "option": "Yes",
+                    "textArea": "Conclude the report followup"
+                    
+                }
+        }
+   
+  
+
+
+    }
+]
+
+

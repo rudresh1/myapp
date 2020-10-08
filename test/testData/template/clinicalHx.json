@@ -1,0 +1,348 @@
+[
+    {"scenario": ""},
+	{
+        "scenario": "ALLNAD",
+    	"ALLNAD":{
+    		"clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNAD",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+	   }
+    },
+    {
+        "scenario": "AllNadWithSizeRoi",
+        "AllNadWithSizeRoi":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNADWithSizeRoi",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "AllNadWithSize",
+    	"AllNadWithSize":{
+    		"clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNADWithSize",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+    	}
+    },
+     {
+        "scenario": "AllNadWithNmRoi",
+        "AllNadWithNmRoi":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNADWithNMRoi",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "AllNadWithNm",
+        "AllNadWithNm":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNADWithNM",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "ALLCommentsWith1OptionMandatory",
+        "ALLCommentsWith1OptionMandatory":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLCommentsWith1OptionMandatory",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "ALLCommentsWith2OptionMandatory",
+        "ALLCommentsWith2OptionMandatory":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLCommentsWith2OptionMandatory",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "ALLCommentsWith3OptionMandatory",
+        "ALLCommentsWith3OptionMandatory":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLCommentsWith3OptionMandatory",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "ALLCommentsWithLastOptionMandatory",
+        "ALLCommentsWithLastOptionMandatory":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLCommentsWithLastOptionMandatory",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "AllCheckboxesWith1OptionandTextArea",
+        "AllCheckboxesWith1OptionandTextArea":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"AllCheckboxesWith1OptionandTextArea",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    },
+    {
+        "scenario": "AllCheckboxesWithLastOptionandTextArea",
+        "AllCheckboxesWith1OptionandTextArea":{
+            "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"AllCheckboxesWith1OptionandTextArea",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+        }
+    }
+
+
+
+
+]

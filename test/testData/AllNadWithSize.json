@@ -1,0 +1,32 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "PrimeRadiology",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Abdominal US",
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_AllNadWithSize"
+        },
+    "findings":
+        {
+            "templateType": "findings_AllNadWithSize"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_AllNadWithSize"
+        }
+   
+  
+
+
+    }
+]
+
+
