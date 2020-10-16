@@ -15,7 +15,9 @@ ${browser}    chrome
 ${remoteMachineIp}
 
 *** Test Cases ***
-All Field Nad    AllNad
+All Field NA    AllNa
+
+All Field Nad    AllNad  
 
 All Field Nad And Size    AllNadWithSize
     
@@ -38,7 +40,8 @@ All CheckBoxes with 1st Option and TextAreea    AllCheckboxesWith1OptionandTextA
 All CheckBoxes with last Option and TextArea    AllCheckboxesWithLastOptionandTextArea
     
 
-    
+All Field NA Preview Complete   AllNa
+        
 All Field Nad Preview Complete   AllNad
     
 All Field Nad And Size Preview Complete         AllNadWithSize
@@ -54,7 +57,8 @@ All Field Comments with 1st Options Mandatory Preview Complete    AllCommentsWit
 All Field Comments with 2st Options Mandatory Preview Complete    AllCommentsWith2OptionMandatory
     
 All Field Comments with 3rd Options Mandatory Preview Complete    AllCommentsWith3OptionMandatory 
-    
+
+All CheckBoxes with 1st Option and TextAreea Preview Complete   AllCheckboxesWith1OptionandTextArea    
 
     
 All Field Nad For Renal   RenalAllNad
@@ -66,7 +70,7 @@ All Field Nad And Size For Neck    NeckAllNadWithSize
 
 Abdominal Test Case
     [Arguments]    ${testFileName}
-    Log   =========== Abdominal Test Case===========    console=yes  
+    Log   =========== Abdominal Test Case===========     DEBUG    console=yes 
     ${all data members}=    Get Test Data With Filter    ${testFileName}
     ${member}=    Set Variable    ${all data members}[0]
     
@@ -79,6 +83,7 @@ Abdominal Test Case
     ${Preview Complete} =	Get Substring	${TEST_NAME}    -16
     Log    ${Preview Complete}    DEBUG    console=yes
     Goto Workshop
+    sleep    2
     # Verify Header and Page List
     sleep    2
     Selecting The Page    ${member['pageName']}
@@ -103,7 +108,7 @@ Abdominal Test Case
     
     # need to achieve below
     #Click Preview
-    sleep   100 
+    sleep   50 
     Wait Until Element Is Visible     class:profile-info 
     #Scroll Element Into View    id=review-checkbox
     #Wait Until Element Is Enabled    id=review-checkbox

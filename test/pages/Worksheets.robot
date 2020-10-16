@@ -21,7 +21,7 @@ Selecting The Page
     Wait Until Element Is Enabled    //*[@id="ultrasound-tab"]//a[./div[contains(text(),'${pageName}')]]    60  
     sleep     5  
     Click Element      //*[@id="ultrasound-tab"]//a[./div[contains(text(),'${pageName}')]]
-
+    
 
 Verify Ultrasound List
     [Documentation]    Verify lists of given Ultrasound section

@@ -1,0 +1,32 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "PrimeRadiology",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Shoulder US",
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_ALLNA"
+        },
+    "sideSelection":
+        {
+            "templateType": "sideSeletion_RightLeftShoulder"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_ALLNA"
+        }
+   
+  
+
+
+    }
+]
+
+

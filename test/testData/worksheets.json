@@ -1,0 +1,16 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "PrimeRadiology",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+	"pageNames":["Abdominal US","Renal US","Pelvis US","Hernia US","Blank US","Lump assessment","Neck and Thyroid US","Breast US",
+	"Scrotal US","Obstrectics US","Shoulder US","Elbow US",
+	"Wrist / Hand / Thumb / Fingers US","Hip US","Knee US","Calf US","Ankle / Foot US",
+	"Arterial Doppler","Venous Doppler","CVI Doppler","Paediatrics Brain US","Paediatrics Spine US",
+	"Paediatrics Pyloric US","Paediatrics Hip US"]
+		
+   }
+]
+
+

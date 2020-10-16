@@ -1,0 +1,93 @@
+[
+    {"scenario": ""},
+	{
+        "scenario": "Option1",        
+        "Option1":{
+             "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Tendon location",
+                            "type": "required_Fixed",
+                            "option":"In groove"
+                        },
+                        {
+                             "checkboxName":"Tendinopathy",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tear",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Insertional bony irregularity",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Fatty atrophy of muscle belly",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Post operative changes",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        },
+                        {
+                            "checkboxName":"Suboptimal evaluation",
+                            "type": "required_Fixed",
+                            "option": "Limited movements"
+                            
+                        },
+                        {
+                            "checkboxName":"Sheath effusion",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tendon thickness",
+                            "type": "required_Fixed",
+                            "option": "Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]   
+            
+        }
+	}
+]

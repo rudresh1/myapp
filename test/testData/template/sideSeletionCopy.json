@@ -1,0 +1,686 @@
+[
+	{"scenario": ""},
+	{
+		"scenario":"RightShoulderOption2",        
+        "RightShoulderOption2":{
+			"shoulder":{
+				"Side selection":
+                {
+                    "option": "Right shoulder" 
+				},  
+				"LHB T":{
+					 "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Tendon location",
+                            "type": "required_Fixed",
+                            "option":"In groove"
+                        },
+                        {
+                             "checkboxName":"Tendinopathy",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tear",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Insertional bony irregularity",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Fatty atrophy of muscle belly",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Post operative changes",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        },
+                        {
+                            "checkboxName":"Suboptimal evaluation",
+                            "type": "required_Fixed",
+                            "option": "Limited movements"
+                            
+                        },
+                        {
+                            "checkboxName":"Sheath effusion",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tendon thickness",
+                            "type": "required_Fixed",
+                            "option": "Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+				},
+				"Subscapularis T":{
+					 "option": "Comments",
+                        "checkboxOptions":
+                        [
+                        {
+                             "checkboxName":"Tendinopathy",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tear",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Insertional bony irregularity",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Fatty atrophy of muscle belly",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Post operative changes",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        },
+                        {
+                            "checkboxName":"Suboptimal evaluation",
+                            "type": "required_Fixed",
+                            "option": "Limited movements"
+                            
+                        },
+                        {
+                            "checkboxName":"Sheath effusion",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tendon thickness",
+                            "type": "required_Fixed",
+                            "option": "Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+				},
+				"Supraspinatus T":{
+					 "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                             "checkboxName":"Tendinopathy",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tear",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Insertional bony irregularity",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Fatty atrophy of muscle belly",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Post operative changes",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        },
+                        {
+                            "checkboxName":"Suboptimal evaluation",
+                            "type": "required_Fixed",
+                            "option": "Limited movements"
+                            
+                        },
+                        {
+                            "checkboxName":"Sheath effusion",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tendon thickness",
+                            "type": "required_Fixed",
+                            "option": "Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+				},
+				"Infraspinatus T":{
+					 "option": "Comments",
+                        "checkboxOptions":
+                        [
+                        {
+                             "checkboxName":"Tendinopathy",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tear",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Insertional bony irregularity",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Enthesopathy",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Fatty atrophy of muscle belly",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Post operative changes",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        },
+                        {
+                            "checkboxName":"Suboptimal evaluation",
+                            "type": "required_Fixed",
+                            "option": "Limited movements"
+                            
+                        },
+                        {
+                            "checkboxName":"Sheath effusion",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tendon thickness",
+                            "type": "required_Fixed",
+                            "option": "Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+				},
+				"Subacromial B":{
+					"option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Impingement",
+                            "type": "required_Fixed",
+                            "option":"No"
+                        },
+                        {
+                             "checkboxName":"Thickening",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Bursitis",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Debris",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Loose body",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Septation",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Synovial thickening",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+				},
+				"AC J":{
+					"option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Joint effusion",
+                            "type": "required_Fixed",
+                            "option":"No"
+                        },
+                        {
+                             "checkboxName":"Joint margin irregularity (OA)",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Loose body",
+                            "type": "required_Fixed",
+                            "option": "Single"
+                            
+                        },
+                        {
+                            "checkboxName":"Normal joint appearance",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        },
+                        {
+                            "checkboxName":"Synovial thickening",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Capsular bulging",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+				},
+				"Shoulder J effusion":{
+					"option": "Yes",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Joint effusion",
+                            "type": "required_Fixed",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Loose body",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Synovial thickening",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+				},
+				"Abduction":{
+					"option": "Pain and restriction"
+				},
+				"Internal rotation":{
+					"option": "Pain and restriction"
+				},
+				"External rotation":{
+					"option": "Pain and restriction"
+				},
+				"Frozen shoulder":{
+					"option": "Yes",
+					 "textArea": "text Area"
+				},
+				"Other findings":{
+					"option": "Comments",
+					"textArea": "text Area"
+				}
+				
+			}
+
+		}
+	},
+	{
+		"scenario": "RightShoulder",        
+        "RightShoulder":{
+			"shoulder":{
+				"Side selection":
+                {
+                    "option": "Right shoulder" 
+                },  
+				"LHB T":{
+					"option": "NAD"
+				},
+				"Subscapularis T":{
+					"option": "NAD"
+				},
+				"Supraspinatus T":{
+					"option": "NAD"
+				},
+				"Infraspinatus T":{
+					"option": "NAD"
+				},
+				"Subacromial B":{
+					"option": "NAD"
+				},
+				"AC J":{
+					"option": "NAD"
+				},
+				"Shoulder J effusion":{
+					"option": "No"
+				},
+				"Abduction":{
+					"option": "NAD"
+				},
+				"Internal rotation":{
+					"option": "NAD"
+				},
+				"External rotation":{
+					"option": "NAD"
+				},
+				"Frozen shoulder":{
+					"option": "No"
+				},
+				"Other findings":{
+					"option": "None"
+				}
+
+			}
+		}
+	},
+	{
+		"scenario": "LeftShoulder",        
+        "LeftShoulder":{
+			"shoulder":{
+				"Side selection":
+                {
+                    "option": "Left shoulder" 
+                },  
+				"LHB T":{
+					"option": "NAD"
+				},
+				"Subscapularis T":{
+					"option": "NAD"
+				},
+				"Supraspinatus T":{
+					"option": "NAD"
+				},
+				"Infraspinatus T":{
+					"option": "NAD"
+				},
+				"Subacromial B":{
+					"option": "NAD"
+				},
+				"AC J":{
+					"option": "NAD"
+				},
+				"Shoulder J effusion":{
+					"option": "No"
+				},
+				"Abduction":{
+					"option": "NAD"
+				},
+				"Internal rotation":{
+					"option": "NAD"
+				},
+				"External rotation":{
+					"option": "NAD"
+				},
+				"Frozen shoulder":{
+					"option": "No"
+				},
+				"Other findings":{
+					"option": "None"
+				}
+
+			}
+		}
+	},
+	{
+		"scenario":"RightShoulderOption2",        
+        "RightShoulderOption2":{
+			"shoulder":{
+				"Side selection":
+                {
+                    "option": "Right shoulder" 
+				},  
+				"LHB T":{
+					"templateType": "tendon_T1"
+				},
+				"Subscapularis T":{
+					"templateType": "tendon_T1"
+				},
+				"Supraspinatus T":{
+					"templateType": "tendon_T1"
+				},
+				"Infraspinatus T":{
+					"templateType": "tendon_T1"
+				},
+				"Subacromial B":{
+					"templateType": "bursa_B1"
+				},
+				"AC J":{
+					"templateType": "joint_J1"
+				},
+				"Shoulder J effusion":{
+					"templateType": "jEffusion_JE1"
+				},
+				"Abduction":{
+					"option": "painAndRestriction"
+				},
+				"Internal rotation":{
+					"option": "painAndRestriction"
+				},
+				"External rotation":{
+					"option": "painAndRestriction"
+				},
+				"Frozen shoulder":{
+					"option": "yes",
+					 "textArea": "textArea"
+				},
+				"Other findings":{
+					"option": "comments",
+					 "textArea": "textArea"
+				}
+				
+			}
+
+		}
+	}
+]

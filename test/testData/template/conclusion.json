@@ -1,6 +1,40 @@
 [
     {"scenario": ""},
     {
+        "scenario": "RightShoulder",
+    	"RightShoulder":{
+    		"comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                "Comment":
+                {
+                    "option": "NAD"
+                }
+              
+            }
+    	}
+    },
+    {
+        "scenario": "ALLNA",
+    	"ALLNA":{
+    		"comment":
+            {   
+                "Further APT":
+                {
+                    "option":"No"
+                },
+                "Comment":
+                {
+                    "option": "NAD"
+                }
+              
+            }
+    	}
+    },
+    {
         "scenario": "ALLNAD",
     	"ALLNAD":{
     		"comment":

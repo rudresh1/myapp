@@ -4,12 +4,13 @@ Library    String
 Library    SeleniumLibrary    
 Library    OperatingSystem 
 Resource    PageObject.robot
+Resource    Shoulder.robot
 
 *** Variable ***
 ${testsRootFolder}    ${EXECDIR}/test/driver/
-@{criticalHxFieldList}    Clinical Hx (Referral)    Hx from patient    Surgical Hx    Comparison    Specific ROI    Scan quality
-@{findingList}    Liver    Portal vein    Gallbladder    CBD    Pancreas    Spleen   Right kidney    Left kidney    Aorta    RIF    LIF    Free fluid    Lymph nodes    Other findings
-@{commentList}    Comment   Further APT    Follow up
+@{criticalHxFieldList}    Clinical Hx (Referral)    Hx from patient    Surgical Hx    Comparison    Specific ROI    Scan quality    Side selection
+@{findingList}    Liver    Portal vein    Gallbladder    CBD    Pancreas    Spleen   Right kidney    Left kidney    Aorta    Free fluid    Lymph nodes    RIF    LIF    Other findings
+@{commentList}    Comment   Further APT    Follow up    COMMENT (_side_)
     
 *** Keywords ***
 
@@ -26,9 +27,11 @@ Fill The List Of Fields
         ${value}=    Get From Dictionary    ${fieldList}    ${key}
         Run keyword if  '${value}' in @{member}    ${key}     ${member}[${value}]
     END
+
     
 New Fill The List Of Fields
     [Arguments]    ${member}    ${fieldList}
+    sleep     2
     FOR    ${key}    IN    @{fieldList}
         Log    ${key}    console=yes
         ${keyList}    Get Dictionary Keys    ${member} 
@@ -67,10 +70,13 @@ Fill The General Information
 Fill Clinical Hx In Abdominal
     [Documentation]     Filling the form for clinical hx
     [Arguments]    ${clinMember}
+    Log   clinMember= ${clinMember}        console=yes
     &{oldFieldList}    Create Dictionary    Clinical Hx (Referral)=referral    Hx from Patient=hxFromPatient    Surgical Hx=surgicalHx    Comparison=comparison
-    ...    Specific ROI=specificRoi    Scan Quality=ScanQuality    
-    Run keyword if  'templateType' in @{clinMember}
+    ...    Specific ROI=specificRoi    Scan Quality=ScanQuality     Side selection=sideSelection   
+    Run keyword if  'templateType' in @{clinMember}    Run Keywords    
     ...    Fill Template Data    ${clinMember}[templateType]    clinicalHx
+    ...    AND
+    ...    Log   clinicalHx= ${clinMember}[templateType]        console=yes
     ...    ELSE    Fill The List Of Fields    ${clinMember}    ${oldFieldList}
 
 Fill Findings in Abdominal 
@@ -90,7 +96,7 @@ Fill Comment in Adbominal
     [Documentation]     Filling the comment for clinical hx
     [Arguments]         ${conMember}
     Log   =========== Findings ===========    console=yes
-    &{oldFieldList}    Create Dictionary    Comment=comment   Further APT=furtherapt    Follow up=followup
+    &{oldFieldList}    Create Dictionary    Comment=comment   Further APT=furtherapt    Follow up=followup    'COMMENT (_side_)=comment(_side_)
     
     Run keyword if  'templateType' in @{conMember}
     ...    Fill Template Data    ${conMember}[templateType]    comment
@@ -195,24 +201,26 @@ Fill Comment Section
     [Arguments]    ${field}    ${data}
     FOR    ${fieldSection}    IN    @{data}
         ${locator}    Set Variable    //tr[@note-structure='${field}']//div[./label[./input[@value='${fieldSection}[checkboxName]'] and (contains(@class,'sec-red-class') or contains(@class,'active-radio'))]]
-        # sleep    10
+        # sleep    1
         Toggle Field    ${field}    ${fieldSection}[checkboxName]    True
-        Log    ${fieldSection}
-        sleep    1
-        Run keyword if  'subCheckboxName' in @{fieldSection}    Run Keyword    Run Keyword If    '${fieldSection}[subCheckboxName]'=='NM'    Run Keywords    Scroll Element Into View    ${locator}//label[./input[@value='NM'] and contains(@class,'checkbox-styled')])[1]    AND    Click Element    ${locator}//label[./input[@value='NM'] and contains(@class,'checkbox-styled')])[1]
-        sleep    1
+        Log    ${fieldSection} commenthere     DEBUG    console=yes
+        # sleep    1
+        Run keyword if  'subCheckboxName' in @{fieldSection}    Fill Sub Section    ${fieldSection}[option]    ${fieldSection}[subCheckboxName]
+        # Run keyword if  'subCheckboxName' in @{fieldSection}    Run Keyword    Run Keyword If    '${fieldSection}[subCheckboxName]'=='NM'    Run Keywords    Scroll Element Into View    ${locator}//label[./input[@value='NM'] and contains(@class,'checkbox-styled')])[1]    AND    Click Element    ${locator}//label[./input[@value='NM'] and contains(@class,'checkbox-styled')])[1]
+        # sleep    3
+        
         Run keyword if  'option' in @{fieldSection}    Click Element    ${locator}//label[span[text()='${fieldSection}[option]']]
-        sleep    1
+        # sleep    1
         Run keyword if  'option1' in @{fieldSection}    Click Element    ${locator}//label[span[text()='${fieldSection}[option1]']]
-        sleep    1
+        # sleep    1
         Run keyword if  'othersComment' in @{fieldSection}    Input Text   ${locator}//textarea    ${fieldSection}[othersComment]
         # sleep    5
         Run keyword if  'cm/sec' in @{fieldSection}     Input Text   ${locator}//input[following-sibling::span[text()='cm/sec']]    ${fieldSection}[cm/sec]
-        sleep    1
+        # sleep    1
         Run keyword if  'textArea' in @{fieldSection}    Input Text    ${locator}//textarea    ${fieldSection}[textArea]
-        sleep    1
+        # sleep    1
         Run Keyword If  'chooseOptions' in @{fieldSection}    Select Dropdown By Text    ${field}    --choose--    ${fieldSection}[chooseOptions]
-        sleep    1
+        # sleep    1
         Run keyword if  'inputBox' in @{fieldSection}    Input Text    ${locator}//div[preceding::span[text()='${fieldSection}[inputBox][inputBoxName]']]/input[@name='rowText']    ${fieldSection}[inputBox][value]
         
         #Run keyword if    'type' in @{fieldSection}
@@ -222,7 +230,15 @@ Fill Comment Section
 
     END
 
-    
+
+Fill Sub Section
+    [Arguments]    ${field}    ${data}
+    FOR    ${fieldSection}    IN    @{data}
+        sleep    1
+      
+      
+    END    
+    # sleep     1    
 
 Gallbladder
     [Documentation]    selecting the options of gall bladder
@@ -328,6 +344,8 @@ Lymph nodes
 Other Findings
     [Documentation]    selecting the options of Other findings
     [Arguments]    ${data}
+    # Wait Until Element Is Visible    id=complete-screenshot    20
+    sleep     20
     Select Value For Field    Other findings       ${data}[option]
     Run Keyword If    '${data}[option]'=='Comments'    Enter Text On Field    Other findings    ${data}[textArea]
     
@@ -363,8 +381,9 @@ Click On Nothing To Indicate
 Click Confirm and Complete
     sleep    5
     Wait Until Page Does Not Contain Element    //div[@class='toast-message']    120
+    Wait Until Element Is Visible    id=complete-screenshot    20
     Scroll Element Into View    id=complete-screenshot
-    Wait Until Element Is Visible    id=complete-screenshot
+   
     Click Using JavaScript    //input[@id='review-checkbox']    
     Click Element With Log Display    (//button[@id='complete-screenshot'])[last()]    Complete
     Wait Until Element Is Enabled    //div[@class='table-responsive']    120
@@ -374,12 +393,16 @@ Fill Template Data
     [Arguments]    ${templateType}    ${formType}
     ${pattern}    Split String    ${templateType}    _
     ${scenario}    Set Variable   ${pattern}[1]
+    Log   templateType= ${templateType}    console=yes
      # ${templateData}=    Get Test Data With Filter    template/${pattern[0]}
      # ${data}    Set Variable   ${templateData}[${scenario}]
     ${templateData}=    Get Test Data With Filter    template/${pattern[0]}    scenario    ${scenario}    
     sleep    5
+    Log   templateData= ${templateData}    console=yes
     ${data}    Set Variable   ${templateData}[0]
+    Log   templateData 0 = ${templateData}[0]    console=yes
     ${data}    Set Variable     ${data}[${scenario}]
+    Log   data scenario = ${data}    console=yes
     Run Keyword If    '${formType}'=='generalInfo'    Fill The General Information Form    ${data}[generalInfo]    
     Run Keyword If    '${formType}'=='clinicalHx'    New Fill The List Of Fields    ${data}[clinicalHx]    ${criticalHxFieldList}    
     Run Keyword If    '${formType}'=='findings'    New Fill The List Of Fields    ${data}[findings]    ${findingList}

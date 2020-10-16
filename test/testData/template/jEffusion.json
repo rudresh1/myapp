@@ -1,0 +1,53 @@
+[
+    {"scenario": ""},
+	{
+        "scenario": "JE1",        
+        "JE1":{
+            "shoulder":
+            {   
+
+                "JE":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Joint effusion",
+                            "type": "required_Fixed",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Loose body",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Synovial thickening",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+                    
+                }
+            }
+        }
+	}
+]

@@ -1,0 +1,94 @@
+[
+    {"scenario": ""},
+	{
+        "scenario": "B1",        
+        "B1":{
+            "shoulder":
+            {   
+
+                "B":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Impingement",
+                            "type": "required_Fixed",
+                            "option":"No"
+                        },
+                        {
+                             "checkboxName":"Thickening",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Bursitis",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Debris",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Fatty atrophy of muscle belly",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Loose body",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Septation",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Synovial thickening",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+                    
+                }
+            }
+        }
+	}
+]

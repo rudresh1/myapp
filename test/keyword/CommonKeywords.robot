@@ -120,7 +120,8 @@ Toggle Field
     [Arguments]    ${field}    ${checkBoxName}    ${checkOption}
     ${chkBoxLocator}    Set Variable    (//tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and contains(@class,'checkbox-styled')])[1]
     ${checkedCount}    Get Element Count    (//tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and (contains(@class,'sec-red-class') or contains(@class,'active-radio'))])[1]
-    ${checkOption}    Convert To Lowercase    ${checkOption}
+    ${checkOption}    Convert To Lower Case    ${checkOption}
+   
     Scroll Element Into View    ${chkBoxLocator}
 
     Run Keyword If    "${checkOption}"=="true" and ${checkedCount}<1    Run keywords

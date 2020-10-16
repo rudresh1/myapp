@@ -1,8 +1,74 @@
 [
     {"scenario": ""},
-	{
+    {
+        "scenario": "RightShoulder",
+        "RightShoulder":
+        {
+    		"clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNA",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+                             
+
+            }
+	   }
+    },
+    {
+        "scenario": "ALLNA",
+        "ALLNA":
+        {
+    		"clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNA",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }                
+
+            }
+	   }
+    },
+    {
         "scenario": "ALLNAD",
-    	"ALLNAD":{
+        "ALLNAD":
+        {
     		"clinicalHx":
             {   
 

@@ -1,0 +1,76 @@
+[
+    {"scenario": ""},
+	{
+        "scenario": "J1",        
+        "J1":{
+            "shoulder":
+            {   
+
+                "J":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Joint effusion",
+                            "type": "required_Fixed",
+                            "option":"No"
+                        },
+                        {
+                             "checkboxName":"Joint margin irregularity (OA)",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Hyperaemia",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Loose body",
+                            "type": "required_Fixed",
+                            "option": "Single"
+                            
+                        },
+                        {
+                            "checkboxName":"Normal joint appearance",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        },
+                        {
+                            "checkboxName":"Synovial thickening",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Tenderness",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Capsular bulging",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        },
+                        {
+                            "checkboxName":"Technical factors",
+                            "type": "required_Fixed",
+                            "option": "Suboptimal"
+                            
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "type": "required_Fixed",
+                            "textArea": "textArea"
+                            
+                        }]
+                    
+                }
+            }
+        }
+	}
+]

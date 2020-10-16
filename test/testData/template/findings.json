@@ -1,6 +1,74 @@
 [
     {"scenario": ""},
     {
+        "scenario": "ALLNA",
+        "ALLNA":
+        {
+            "findings":
+            {   
+
+                "Liver":
+                {
+                    "option": "N A"
+                },
+                "Portal vein":
+                {
+                    "option":"N A"
+                 },
+                "Gallbladder":
+                {
+                    "option": "N A"
+                },
+                "CBD": 
+                {
+                    "option": "N A"
+                },
+                "Pancreas":
+                {
+                    "option": "N A"
+                },
+                "Spleen": 
+                {
+                    "option": "N A"
+                },
+                "Right kidney": 
+                {
+                    "option": "N A"
+                },
+                "Left kidney": 
+                {
+                    "option": "N A"
+                },
+                "Aorta": 
+                {
+                    "option": "N A"
+                },
+                "Free fluid": 
+                {
+                    "option": "N A"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "N A"
+                },
+                "RIF": 
+                {
+                    "option": "N A"
+                },
+                "LIF": 
+                {
+                    "option": "N A"
+                },
+                "Other findings": 
+                {
+                    "option": "Comments",
+                    "textArea":"All checkbox with Last Option"
+                    
+                }
+            }
+    	}
+    },
+    {
         "scenario": "ALLNAD",
     	"ALLNAD":{
     		"findings":
@@ -637,7 +705,7 @@
                             "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "1",
-                            "checkboxOptions":
+                            "subCheckboxName":
                             [{
                             "checkboxName":"Location",
                             "type": "required_Fixed",
@@ -1356,41 +1424,32 @@
                         "checkboxOptions":
                         [
                         {
+                            "checkboxName":"Fatty liver",
+                            "option":"No"  
+                        },    
+                        {
                             "checkboxName":"Cyst",
                             "option":"No"    
                         },
                         {
                             "checkboxName":"Liver elastography",
-                            "textArea":"Text Area"                                           
+                            "textArea":"text area"                                           
                         },
                         {
                             "checkboxName":"Pneumobilia",
-                            "textArea":"No"  
+                            "option":"No"  
                         },
-                        {
-                            "checkboxName":"Surgery",
-                            "option":"Lt partial hepatectcomy"
-                        },
-                       
                         {
                             "checkboxName":"Peripotal cuffing / starry sky appearance",
-                            "textArea":"Text Area"  
+                            "option1":"No"  
                         },
                         {
-                            "checkboxName":"Patient is tall & hence liver is likely normal in size",
-                            "textArea":"Text Area"  
+                            "checkboxName":"Technical factors",
+                            "option":"Suboptimal"  
                         },
                         {
-                            "checkboxName":"Suboptimal liver visualisation through subcostal approach. Could only be assessed via intercostal approach.",
-                            "textArea":"Text Area"  
-                        },
-                        {
-                            "checkboxName":"Suboptimal due to",                    
-                            "option": "Mid Pole"
-                        },
-                        {
-                            "checkboxName":"Riedel lobe",
-                            "textArea":"Text Area"  
+                            "checkboxName":"Normal variant",                    
+                            "option": "Riedel lobe"
                         },
                         {   
                             "checkboxName":"Free text",
@@ -1431,11 +1490,6 @@
                             
                         },
                         {
-                            "checkboxName":"Suboptimal due to",
-                            
-                            "option": "Mid Pole"
-                        },
-                        {
                             "checkboxName":"Portal hypertension",
                             "textArea": "text area"
                         }]
@@ -1445,6 +1499,11 @@
                     "option": "Comments",
                         "checkboxOptions":
                         [
+                        {
+                             "checkboxName":"Cholelithiasis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                        },
                         {
                             "checkboxName":"Wall Thickness",
                             "option": "Normal"
@@ -1466,10 +1525,6 @@
                             
                         },
                         {
-                            "checkboxName":"Contracted gallbladder",
-                            "textArea": "text area"
-                        },
-                        {
                             "checkboxName":"Debris",
                             "option": "No"
                             
@@ -1479,15 +1534,7 @@
                             "checkboxName":"Polyp",
                             "option": "No"
                             
-                        },
-                        {
-                            "checkboxName":"Fundal septum",
-                            "textArea": "text area"
-                        },
-                        {
-                            "checkboxName":"Post cholecystectomy status",
-                            "textArea": "text area"
-                        },
+                        },                        
                         {
                             "checkboxName":"Porcelain gallbladder",
                             "textArea": "text area"
@@ -1498,9 +1545,9 @@
                             
                         },
                         {
-                            "checkboxName":"Suboptimal due to",
+                            "checkboxName":"Normal variant",
                             
-                            "option": "Lower Pole"
+                            "option": "Fundal septum"
                         },
                         {
                             "checkboxName":"Free text",
@@ -1514,10 +1561,6 @@
                     [{
                         "checkboxName":"Pneumobilia",
                         "textArea": "text area"
-                    },
-                    {
-                        "checkboxName":"CBD Calculi",
-                        "option": "No"
                     },
                     {
                         "checkboxName":"Free text",
@@ -1536,7 +1579,7 @@
                     },
                     {
                         "checkboxName":"MPD Dilated",
-                        "option": "No"
+                        "option": "Normal"
                       
                         
                     },
@@ -1551,20 +1594,6 @@
                         "option": "No"
                       
                         
-                    },
-                    {
-                            "checkboxName":"Suboptimal visualisation due to overlying bowel gas",
-                            
-                            "othersComment":"Pancreatic head other comment"
-                    },
-                    {
-                            "checkboxName":"Suboptimal due to",
-                            
-                            "othersComment":"other comment"
-                    },
-                    {
-                        "checkboxName":"Free text",
-                        "textArea": "text area"
                     }]
                 },
                 "Spleen": 
@@ -1581,7 +1610,7 @@
                     },             
                     {
                         "checkboxName":"Splenunculus",
-                        "textArea": "text area"
+                        "option": "No"
                         
                     }]
                   
@@ -1590,41 +1619,23 @@
                 {
                     "option": "Comments",
                         "checkboxOptions":
-                        [{
+                        [
+                        {
+                            "checkboxName":"Any calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"  
+                        },
+                        {
                             "checkboxName":"Compensatory hypertrophy",
                              "textArea":"test area"
                         },
                         {
                             "checkboxName":"Cortical scarring",
-                             "textArea":"test area"
-                        },
-                        {
-                            "checkboxName":"Cyst (Cortical)",
-                             "option":"No"
+                             "option":"Upper pole"
                         },
                         {
                             "checkboxName":"Cyst  (Parapelvic)",
                              "option":"No"
-                        },
-                        {
-                            "checkboxName":"Extrarenal pelvis",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Horshoe kidney",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Hypertrophied column of bertin",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Loss of cortico-medullary differentiation",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Low position of kidney than normal",
-                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Malrotation",
@@ -1639,25 +1650,21 @@
                              "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Persistent foetal lobulations",
-                             "textArea":"text area"
+                            "checkboxName":"Normal variant",
+                             "option":"Persistent foetal lobulations"
                         },
                         {
-                            "checkboxName":"Total Nephrectomy",
-                             "textArea":"text area"
+                            "checkboxName":"Increased cortical ecogenicity",
+                             "option":"No"
                         },
                         {
-                            "checkboxName":"Partial Nephrectomy",
-                             "textArea":"text area"
+                            "checkboxName":"Cortical thinning",
+                             "option":"No"
                         },
                         {
                             "checkboxName":"Renal pelvis fullness",
                             "dropdownOptions": "Prevoid state,Post void state",
                             "textArea": "text area"
-                        },
-                        {
-                            "checkboxName":"Suboptimal visualisation of kidney",
-                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Free text",
@@ -1671,41 +1678,23 @@
                 {
                     "option": "Comments",
                         "checkboxOptions":
-                        [{
+                        [
+                        {
+                            "checkboxName":"Any calculi ?",
+                            "type": "required_Fixed",
+                            "option": "No"  
+                        },
+                        {
                             "checkboxName":"Compensatory hypertrophy",
                              "textArea":"test area"
                         },
                         {
                             "checkboxName":"Cortical scarring",
-                             "textArea":"test area"
-                        },
-                        {
-                            "checkboxName":"Cyst (Cortical)",
-                             "option":"No"
+                             "option":"Upper pole"
                         },
                         {
                             "checkboxName":"Cyst  (Parapelvic)",
                              "option":"No"
-                        },
-                        {
-                            "checkboxName":"Extrarenal pelvis",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Horshoe kidney",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Hypertrophied column of bertin",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Loss of cortico-medullary differentiation",
-                             "textArea":"text area"
-                        },
-                        {
-                            "checkboxName":"Low position of kidney than normal",
-                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Malrotation",
@@ -1720,25 +1709,21 @@
                              "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Persistent foetal lobulations",
-                             "textArea":"text area"
+                            "checkboxName":"Normal variant",
+                             "option":"Persistent foetal lobulations"
                         },
                         {
-                            "checkboxName":"Total Nephrectomy",
-                             "textArea":"text area"
+                            "checkboxName":"Increased cortical ecogenicity",
+                             "option":"No"
                         },
                         {
-                            "checkboxName":"Partial Nephrectomy",
-                             "textArea":"text area"
+                            "checkboxName":"Cortical thinning",
+                             "option":"No"
                         },
                         {
                             "checkboxName":"Renal pelvis fullness",
                             "dropdownOptions": "Prevoid state,Post void state",
                             "textArea": "text area"
-                        },
-                        {
-                            "checkboxName":"Suboptimal visualisation of kidney",
-                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Free text",
@@ -1752,20 +1737,11 @@
                     "checkboxOptions":
                     [{
                         "checkboxName":"Atheromatous calcification",
-                        "textArea": "text area"                    
-                    },               
-                   {
-                        "checkboxName":"Suboptiomal visualisation due to overlying bowel gas",
-                        "textArea": "text area"
+                        "option": "No"                    
                     },
                      {
                         "checkboxName":"Tortuous aorta",
                         "textArea": "text area"
-                    },
-                    {
-                        "checkboxName":"Suboptimal due to",
-                        
-                        "textArea": "text area" 
                     },             
                     {
                         "checkboxName":"Free text",
@@ -1804,11 +1780,6 @@
                     {
                         "checkboxName":"Free text",
                         "textArea": "text area"
-                    },
-                    {
-                        "checkboxName":"Suboptimal due to",
-                        
-                        "textArea": "text area"
                     }]
                 },
                 "LIF": 
@@ -1825,11 +1796,6 @@
                     },
                     {
                         "checkboxName":"Free text",
-                        "textArea": "text area"
-                    },
-                    {
-                        "checkboxName":"Suboptimal due to",
-                        
                         "textArea": "text area"
                     }]
                 },
