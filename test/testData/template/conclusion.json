@@ -18,8 +18,8 @@
     	}
     },
     {
-        "scenario": "ALLNA",
-    	"ALLNA":{
+        "scenario": "ALLNAD",
+    	"ALLNAD":{
     		"comment":
             {   
                 "Further APT":
@@ -35,8 +35,8 @@
     	}
     },
     {
-        "scenario": "ALLNAD",
-    	"ALLNAD":{
+        "scenario": "ALLNA",
+    	"ALLNA":{
     		"comment":
             {   
                 "Further APT":

@@ -48,7 +48,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN"
+                    "option": "None visualised"
                 },
                 "RIF": 
                 {
@@ -61,74 +61,6 @@
                 "Other findings": 
                 {
                     "option": "None"
-                }
-            }
-    	}
-    },
-    {
-        "scenario": "ALLNA",
-        "ALLNA":
-        {
-            "findings":
-            {   
-
-                "Liver":
-                {
-                    "option": "N A"
-                },
-                "Portal vein":
-                {
-                    "option":"N A"
-                 },
-                "Gallbladder":
-                {
-                    "option": "N A"
-                },
-                "CBD": 
-                {
-                    "option": "N A"
-                },
-                "Pancreas":
-                {
-                    "option": "N A"
-                },
-                "Spleen": 
-                {
-                    "option": "N A"
-                },
-                "Right kidney": 
-                {
-                    "option": "N A"
-                },
-                "Left kidney": 
-                {
-                    "option": "N A"
-                },
-                "Aorta": 
-                {
-                    "option": "N A"
-                },
-                "Free fluid": 
-                {
-                    "option": "N A"
-                },
-                "Lymph nodes": 
-                {
-                    "option": "N A"
-                },
-                "RIF": 
-                {
-                    "option": "N A"
-                },
-                "LIF": 
-                {
-                    "option": "N A"
-                },
-                "Other findings": 
-                {
-                    "option": "Comments",
-                    "textArea":"All checkbox with Last Option"
-                    
                 }
             }
     	}
@@ -187,7 +119,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN",
+                    "option": "None visualised",
                         "roi": "true"                    
                 },
                 "RIF": 
@@ -213,12 +145,12 @@
             "findings":
             {   
 
-                "Liver":
+                "Right parotid gland":
                 {
-                    "option": "NAD",
-                    "size": "33"
+                    "option": "NAD"
+                   
                 },
-                "Portal vein":
+                "Left parotid gland":
                 {
                     "option":"NAD"
                 },
@@ -261,7 +193,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN"
+                    "option": "None visualised"
                     
                 },
                 "RIF": 
@@ -336,7 +268,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN",
+                    "option": "None visualised",
                     "rm":"true",
                     "checkboxOptions":
                     [{
@@ -415,7 +347,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN",
+                    "option": "None visualised",
                     "rm":"true"                   
                 },
                 "RIF": 
@@ -480,7 +412,7 @@
                         [{
                             "checkboxName":"Distension",
                             "type": "required_Fixed",
-                            "option":"Adequately distended"
+                            "option":"Adequate"
                         },
                         {
                              "checkboxName":"Cholelithiasis ?",
@@ -537,7 +469,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                              "type": "required_Fixed",
                              "option":"No"                      
                         },
@@ -548,7 +480,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -566,7 +498,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                              "type": "required_Fixed",
                              "option":"No"                      
                         },
@@ -577,7 +509,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -601,7 +533,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN"
+                    "option": "None visualised"
                 },
                 "RIF": 
                 {
@@ -614,7 +546,7 @@
                         
                     },
                     {
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "No"
                         
@@ -623,19 +555,19 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "No"
+                        "option": "Absent"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "No"
+                        "option": "Absent"
                         
                     },
                     {
                         "checkboxName":"Abscess",
                         "type": "required_Fixed",
-                        "option": "No"
+                        "option": "Absent"
                         
                     }]
                 },
@@ -644,7 +576,7 @@
                     "option": "Comments",
                     "checkboxOptions":
                     [{
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "No"
                         
@@ -652,19 +584,19 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "No"
+                        "option": "Absent"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "No"
+                        "option": "Absent"
                         
                     },
                     {
                         "checkboxName":"Abscess",
                         "type": "required_Fixed",
-                        "option": "No"
+                        "option": "Absent"
                         
                     }]
                 },
@@ -704,13 +636,7 @@
                         {
                             "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
-                            "option": "1",
-                            "subCheckboxName":
-                            [{
-                            "checkboxName":"Location",
-                            "type": "required_Fixed",
-                            "option":"Segment 1"
-                            }]
+                            "option": "No"
                             
                         }]
                     
@@ -726,7 +652,7 @@
                         [{
                             "checkboxName":"Distension",
                             "type": "required_Fixed",
-                            "option":"Suboptimal distended"
+                            "option":"Suboptimal"
                         },
                         {
                              "checkboxName":"Cholelithiasis ?",
@@ -783,7 +709,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                             "type": "required_Fixed",
                             "option": "No"                              
                         },
@@ -794,7 +720,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -812,7 +738,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                             "type": "required_Fixed",
                             "option": "No"  
                         },
@@ -823,7 +749,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -847,7 +773,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN"
+                    "option": "None visualised"
                 },
                 "RIF": 
                 {
@@ -860,7 +786,7 @@
                         
                     },
                     {
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "Mild"
                         
@@ -869,13 +795,13 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "Mild"
+                        "option": "Present"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "Trace"
+                        "option": "Present"
                         
                     },
                     {
@@ -890,7 +816,7 @@
                     "option": "Comments",
                     "checkboxOptions":
                     [{
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "Mild"
                         
@@ -898,13 +824,13 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "Mild"
+                        "option": "Present"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "Trace"
+                        "option": "Present"
                         
                     },
                     {
@@ -966,7 +892,7 @@
                         [{
                             "checkboxName":"Distension",
                             "type": "required_Fixed",
-                            "option":"Contracted"
+                            "option":"Collapsed"
                         },
                         {
                              "checkboxName":"Cholelithiasis ?",
@@ -1023,7 +949,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                             "type": "required_Fixed",
                             "option": "No"                              
                         },
@@ -1034,7 +960,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -1052,7 +978,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                             "type": "required_Fixed",
                             "option": "No"  
                         },
@@ -1063,7 +989,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -1087,7 +1013,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN"
+                    "option": "None visualised"
                 },
                 "RIF": 
                 {
@@ -1100,7 +1026,7 @@
                         
                     },
                     {
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "Moderate"
                         
@@ -1109,13 +1035,13 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "Moderate"
+                        "option": "Present"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "Small"
+                        "option": "Present"
                         
                     },
                     {
@@ -1130,7 +1056,7 @@
                     "option": "Comments",
                     "checkboxOptions":
                     [{
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "Moderate"
                         
@@ -1138,13 +1064,13 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "Moderate"
+                        "option": "Present"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "Moderate"
+                        "option": "Present"
                         
                     },
                     {
@@ -1272,7 +1198,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                             "type": "required_Fixed",
                             "option": "No"                              
                         },
@@ -1283,7 +1209,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -1302,7 +1228,7 @@
                             
                         },
                         {
-                            "checkboxName":"Any calculi ?",
+                            "checkboxName":"Any Calculi ?",
                             "type": "required_Fixed",
                             "option": "No"  
                         },
@@ -1314,7 +1240,7 @@
                              
                         },
                         {
-                            "checkboxName":"Any solid lesion ?",
+                            "checkboxName":"Any Solid lesion ?",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -1338,7 +1264,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN"
+                    "option": "None visualised"
                 },
                 "RIF": 
                 {
@@ -1351,7 +1277,7 @@
                         
                     },
                     {
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "Mild"
                         
@@ -1360,13 +1286,13 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "Severe"
+                        "option": "Present"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "Large"
+                        "option": "Present"
                         
                     },
                     {
@@ -1381,7 +1307,7 @@
                     "option": "Comments",
                     "checkboxOptions":
                     [{
-                        "checkboxName":"Probe tenderness",
+                        "checkboxName":"Probe tenderness:",
                         "type": "required_Fixed",
                         "option": "Mild"
                         
@@ -1389,13 +1315,13 @@
                     {
                         "checkboxName":"Fat stranding",
                         "type": "required_Fixed",
-                        "option": "Sever"
+                        "option": "Present"
                         
                     },
                     {
                         "checkboxName":"Free fluid",
                         "type": "required_Fixed",
-                        "option": "Large"
+                        "option": "Present"
                         
                     },
                     {
@@ -1424,32 +1350,40 @@
                         "checkboxOptions":
                         [
                         {
-                            "checkboxName":"Fatty liver",
-                            "option":"No"  
-                        },    
-                        {
                             "checkboxName":"Cyst",
                             "option":"No"    
                         },
                         {
                             "checkboxName":"Liver elastography",
-                            "textArea":"text area"                                           
+                            "textArea":"Text Area"                                           
+                        },
+                        {
+                            "checkboxName":"Surgery",
+                            "option":"Rt lobe partial hepatectomy"
                         },
                         {
                             "checkboxName":"Pneumobilia",
-                            "option":"No"  
+                            "textArea":"Text Area"  
                         },
                         {
                             "checkboxName":"Peripotal cuffing / starry sky appearance",
-                            "option1":"No"  
+                            "textArea":"Text Area"  
                         },
                         {
-                            "checkboxName":"Technical factors",
-                            "option":"Suboptimal"  
+                            "checkboxName":"Patient is tall & hence liver is likely normal in size",
+                            "textArea":"Text Area"  
                         },
                         {
-                            "checkboxName":"Normal variant",                    
-                            "option": "Riedel lobe"
+                            "checkboxName":"Suboptimal liver visualisation through subcostal approach. Could only be assessed via intercostal approach.",
+                            "textArea":"Text Area"  
+                        },
+                        {
+                            "checkboxName":"Suboptimal due to",                    
+                            "option": "Mid Pole"
+                        },
+                        {
+                            "checkboxName":"Riedel lobe",
+                            "textArea":"Text Area"  
                         },
                         {   
                             "checkboxName":"Free text",
@@ -1490,6 +1424,11 @@
                             
                         },
                         {
+                            "checkboxName":"Suboptimal due to",
+                            
+                            "option": "Mid Pole"
+                        },
+                        {
                             "checkboxName":"Portal hypertension",
                             "textArea": "text area"
                         }]
@@ -1499,11 +1438,6 @@
                     "option": "Comments",
                         "checkboxOptions":
                         [
-                        {
-                             "checkboxName":"Cholelithiasis ?",
-                             "type": "required_Fixed",
-                             "option":"No"
-                        },
                         {
                             "checkboxName":"Wall Thickness",
                             "option": "Normal"
@@ -1525,6 +1459,10 @@
                             
                         },
                         {
+                            "checkboxName":"Contracted gallbladder",
+                            "textArea": "text area"
+                        },
+                        {
                             "checkboxName":"Debris",
                             "option": "No"
                             
@@ -1534,7 +1472,15 @@
                             "checkboxName":"Polyp",
                             "option": "No"
                             
-                        },                        
+                        },
+                        {
+                            "checkboxName":"Fundal septum",
+                            "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Post cholecystectomy status",
+                            "textArea": "text area"
+                        },
                         {
                             "checkboxName":"Porcelain gallbladder",
                             "textArea": "text area"
@@ -1545,9 +1491,9 @@
                             
                         },
                         {
-                            "checkboxName":"Normal variant",
+                            "checkboxName":"Suboptimal due to",
                             
-                            "option": "Fundal septum"
+                            "option": "Lower Pole"
                         },
                         {
                             "checkboxName":"Free text",
@@ -1561,6 +1507,10 @@
                     [{
                         "checkboxName":"Pneumobilia",
                         "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"CBD Calculi",
+                        "option": "No"
                     },
                     {
                         "checkboxName":"Free text",
@@ -1579,7 +1529,7 @@
                     },
                     {
                         "checkboxName":"MPD Dilated",
-                        "option": "Normal"
+                        "option": "No"
                       
                         
                     },
@@ -1594,6 +1544,20 @@
                         "option": "No"
                       
                         
+                    },
+                    {
+                            "checkboxName":"Suboptimal visualisation due to overlying bowel gas",
+                            
+                            "othersComment":"Pancreatic head other comment"
+                    },
+                    {
+                            "checkboxName":"Suboptimal due to",
+                            
+                            "othersComment":"other comment"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
                     }]
                 },
                 "Spleen": 
@@ -1610,7 +1574,7 @@
                     },             
                     {
                         "checkboxName":"Splenunculus",
-                        "option": "No"
+                        "textArea": "text area"
                         
                     }]
                   
@@ -1619,23 +1583,41 @@
                 {
                     "option": "Comments",
                         "checkboxOptions":
-                        [
-                        {
-                            "checkboxName":"Any calculi ?",
-                            "type": "required_Fixed",
-                            "option": "No"  
-                        },
-                        {
+                        [{
                             "checkboxName":"Compensatory hypertrophy",
                              "textArea":"test area"
                         },
                         {
                             "checkboxName":"Cortical scarring",
-                             "option":"Upper pole"
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Cyst (Cortical)",
+                             "option":"No"
                         },
                         {
                             "checkboxName":"Cyst  (Parapelvic)",
                              "option":"No"
+                        },
+                        {
+                            "checkboxName":"Extrarenal pelvis",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Horshoe kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Hypertrophied column of bertin",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Loss of cortico-medullary differentiation",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Low position of kidney than normal",
+                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Malrotation",
@@ -1650,21 +1632,25 @@
                              "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Normal variant",
-                             "option":"Persistent foetal lobulations"
+                            "checkboxName":"Persistent foetal lobulations",
+                             "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Increased cortical ecogenicity",
-                             "option":"No"
+                            "checkboxName":"Total Nephrectomy",
+                             "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Cortical thinning",
-                             "option":"No"
+                            "checkboxName":"Partial Nephrectomy",
+                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Renal pelvis fullness",
                             "dropdownOptions": "Prevoid state,Post void state",
                             "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Suboptimal visualisation of kidney",
+                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Free text",
@@ -1678,23 +1664,41 @@
                 {
                     "option": "Comments",
                         "checkboxOptions":
-                        [
-                        {
-                            "checkboxName":"Any calculi ?",
-                            "type": "required_Fixed",
-                            "option": "No"  
-                        },
-                        {
+                        [{
                             "checkboxName":"Compensatory hypertrophy",
                              "textArea":"test area"
                         },
                         {
                             "checkboxName":"Cortical scarring",
-                             "option":"Upper pole"
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Cyst (Cortical)",
+                             "option":"No"
                         },
                         {
                             "checkboxName":"Cyst  (Parapelvic)",
                              "option":"No"
+                        },
+                        {
+                            "checkboxName":"Extrarenal pelvis",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Horshoe kidney",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Hypertrophied column of bertin",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Loss of cortico-medullary differentiation",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Low position of kidney than normal",
+                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Malrotation",
@@ -1709,21 +1713,25 @@
                              "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Normal variant",
-                             "option":"Persistent foetal lobulations"
+                            "checkboxName":"Persistent foetal lobulations",
+                             "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Increased cortical ecogenicity",
-                             "option":"No"
+                            "checkboxName":"Total Nephrectomy",
+                             "textArea":"text area"
                         },
                         {
-                            "checkboxName":"Cortical thinning",
-                             "option":"No"
+                            "checkboxName":"Partial Nephrectomy",
+                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Renal pelvis fullness",
                             "dropdownOptions": "Prevoid state,Post void state",
                             "textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Suboptimal visualisation of kidney",
+                             "textArea":"text area"
                         },
                         {
                             "checkboxName":"Free text",
@@ -1737,11 +1745,20 @@
                     "checkboxOptions":
                     [{
                         "checkboxName":"Atheromatous calcification",
-                        "option": "No"                    
+                        "textArea": "text area"                    
+                    },               
+                   {
+                        "checkboxName":"Suboptiomal visualisation due to overlying bowel gas",
+                        "textArea": "text area"
                     },
                      {
                         "checkboxName":"Tortuous aorta",
                         "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        
+                        "textArea": "text area" 
                     },             
                     {
                         "checkboxName":"Free text",
@@ -1762,7 +1779,7 @@
                 },
                 "Lymph nodes": 
                 {
-                    "option": "Normal LN"
+                    "option": "None visualised"
                 },
                 "RIF": 
                 {
@@ -1780,6 +1797,11 @@
                     {
                         "checkboxName":"Free text",
                         "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        
+                        "textArea": "text area"
                     }]
                 },
                 "LIF": 
@@ -1796,6 +1818,11 @@
                     },
                     {
                         "checkboxName":"Free text",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Suboptimal due to",
+                        
                         "textArea": "text area"
                     }]
                 },

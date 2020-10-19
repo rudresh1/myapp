@@ -1,0 +1,426 @@
+[
+    {"scenario": ""},
+    {
+        "scenario": "ALLNAD",
+    	"ALLNAD":{
+    		"findings":
+            {   
+
+                
+                "Thyroid":
+                {
+                    "option": "NAD"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "Normal LN"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                },
+                "Rt. Parotid Gland":
+                {
+                    "option": "NAD"
+                   
+                },
+                "Lt. Parotid Gland":
+                {
+                    "option":"NAD"
+                },
+                "Rt. Submandibular G":
+                {
+                    "option": "NAD"
+                },
+                "Lt. Submandibular G": 
+                {
+                    "option": "NAD"
+                }
+            }
+    	}
+    },{
+        "scenario": "AllNadWithSize",
+        "AllNadWithSize":{
+            "findings":
+            {   
+
+                
+                "Thyroid":
+                {
+                    "option": "NAD",
+                    "text":"20"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "Normal LN"
+                    
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                },
+                "Rt. Parotid Gland":
+                {
+                    "option": "NAD"
+                   
+                },
+                "Lt. Parotid Gland":
+                {
+                    "option":"NAD"
+                },
+                "Rt. Submandibular G":
+                {
+                    "option": "NAD"
+                },
+                "Lt. Submandibular G": 
+                {
+                    "option": "NAD"
+                }
+            }
+        }
+    },
+    {
+        "scenario": "ALLNA",
+    	"ALLNA":{
+    		"findings":
+            {   
+
+                "Rt. Parotoid Gland":
+                {
+                    "option": "N A"
+                },
+                "Lt. Parotoid Gland":
+                {
+                    "option":"N A"
+                },
+                "Rt. Submandibular G":
+                {
+                    "option": "N A"
+                },
+                "Lt. Submandibular G": 
+                {
+                    "option": "N A"
+                },
+                "Thyroid":
+                {
+                    "option": "N A"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "N A"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+    	}
+    },
+    {
+        "scenario": "AllNadWithRoi",
+        "AllNadWithRoi":{
+            "findings":
+            {   
+
+                "Rt. Parotid Gland":
+                {
+                    "option": "NAD",
+                    "roi": "true"
+                },
+                "Lt. Parotid Gland":
+                {
+                    "option":"NAD",
+                    "roi": "true"
+                },
+                "Rt. Submandibular G":
+                {
+                    "option": "NAD",
+                    "roi": "true"
+                },
+                "Lt. Submandibular G": 
+                {
+                    "option": "NAD",
+                    "roi": "true"
+                },
+                "Thyroid":
+                {
+                    "option": "NAD"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "Normal LN",
+                        "roi": "true"                    
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+        }
+    },
+	{
+        "scenario": "AllCheckboxesWithLastOptionandTextArea",        
+        "AllCheckboxesWithLastOptionandTextArea":{
+            "findings":
+            {   
+             "Rt. Parotid Gland": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Gland size",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland echogenicity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland vascularity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Calcluli",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal cyst",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal solid lesion",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Dilated ducts",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Sialadenitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Parotitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Post operative changes",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Intraparotid lymphnode",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }
+                    ]
+                },
+
+               "Lt. Parotid Gland": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Gland size",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland echogenicity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland vascularity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Calcluli",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal cyst",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal solid lesion",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Dilated ducts",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Sialadenitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Parotitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Post operative changes",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Intraparotid lymphnode",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }
+
+                    ]
+                },
+
+                "Lymph nodes": 
+                {
+                    "option": "Others",
+                    "textArea":"free text"
+                },
+                "Rt. Submandibular G": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Gland size",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland echogenicity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland vascularity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Calcluli",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal cyst",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal solid lesion",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Dilated ducts",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Sialadenitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Parotitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Post operative changes",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Intraparotid lymphnode",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }
+
+                    ]
+                },
+                "Lt. Submandibular G": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Gland size",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland echogenicity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Gland vascularity",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Calcluli",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal cyst",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Focal solid lesion",
+                        "option":">10"
+                    },
+                    {
+                        "checkboxName":"Dilated ducts",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Sialadenitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Parotitis",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Post operative changes",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Intraparotid lymphnode",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }
+
+                    ]
+                },
+                "Other findings": 
+                {
+                    "option": "Comments",
+                    "textArea": "otherfindings text"
+                }
+            }
+        }
+    }
+    
+
+]

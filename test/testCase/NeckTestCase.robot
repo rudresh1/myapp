@@ -37,8 +37,25 @@ All CheckBoxes with last Option and TextArea    AllCheckboxesWithLastOptionandTe
     
 All Field Nad For Renal   RenalAllNad
     
+
+
+
+    
+All Field Nad For Neck   NeckAllNad
+    
 All Field Nad And Size For Neck    NeckAllNadWithSize 
-        
+    
+All Field NA For Neck    NeckALLNA
+    
+All Field Nad and ROI For Neck    NeckAllNadWithRoi
+    
+All CheckBoxes with last Option and TextArea For Neck    NeckAllCheckboxesWithLastOptionandTextArea
+ 
+All Field Comments with 1st Options For Neck    Neck1Option
+    
+All Field Comments with 2st Options For Neck    Neck2Option
+    
+All Field Comments with 3rd Options For Neck    Neck3Option        
     
 *** Keywords ***
 
@@ -56,9 +73,9 @@ Neck Test Case
     # sleep     30
     Goto Workshop
     # Verify Header and Page List
-    sleep     10
+    sleep     2
     Selecting The Page    ${member['pageName']}
-    sleep     10
+    sleep     3
         
     Fill The General Information     ${member['GeneralDetails']}
    
@@ -71,7 +88,7 @@ Neck Test Case
     Click On Graphic Tab 
     
     Click On Nothing To Indicate 
-    sleep    20
+    sleep    10
     Click pause
     
     # need to achieve below

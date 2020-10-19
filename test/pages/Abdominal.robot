@@ -204,23 +204,29 @@ Fill Comment Section
         # sleep    1
         Toggle Field    ${field}    ${fieldSection}[checkboxName]    True
         Log    ${fieldSection} commenthere     DEBUG    console=yes
-        # sleep    1
+        sleep    1
+        Log     subcheck     DEBUG    console=yes
         Run keyword if  'subCheckboxName' in @{fieldSection}    Fill Sub Section    ${fieldSection}[option]    ${fieldSection}[subCheckboxName]
         # Run keyword if  'subCheckboxName' in @{fieldSection}    Run Keyword    Run Keyword If    '${fieldSection}[subCheckboxName]'=='NM'    Run Keywords    Scroll Element Into View    ${locator}//label[./input[@value='NM'] and contains(@class,'checkbox-styled')])[1]    AND    Click Element    ${locator}//label[./input[@value='NM'] and contains(@class,'checkbox-styled')])[1]
         # sleep    3
-        
+        Log     option     DEBUG    console=yes
+        Log    ${locator}    console=yes
         Run keyword if  'option' in @{fieldSection}    Click Element    ${locator}//label[span[text()='${fieldSection}[option]']]
         # sleep    1
         Run keyword if  'option1' in @{fieldSection}    Click Element    ${locator}//label[span[text()='${fieldSection}[option1]']]
         # sleep    1
+        Log     othersComment     DEBUG    console=yes
         Run keyword if  'othersComment' in @{fieldSection}    Input Text   ${locator}//textarea    ${fieldSection}[othersComment]
         # sleep    5
         Run keyword if  'cm/sec' in @{fieldSection}     Input Text   ${locator}//input[following-sibling::span[text()='cm/sec']]    ${fieldSection}[cm/sec]
         # sleep    1
+        Log     textArea     DEBUG    console=yes
         Run keyword if  'textArea' in @{fieldSection}    Input Text    ${locator}//textarea    ${fieldSection}[textArea]
         # sleep    1
+        Log     chooseOptions     DEBUG    console=yes
         Run Keyword If  'chooseOptions' in @{fieldSection}    Select Dropdown By Text    ${field}    --choose--    ${fieldSection}[chooseOptions]
         # sleep    1
+        Log     inputBox     DEBUG    console=yes
         Run keyword if  'inputBox' in @{fieldSection}    Input Text    ${locator}//div[preceding::span[text()='${fieldSection}[inputBox][inputBoxName]']]/input[@name='rowText']    ${fieldSection}[inputBox][value]
         
         #Run keyword if    'type' in @{fieldSection}
@@ -394,9 +400,12 @@ Fill Template Data
     ${pattern}    Split String    ${templateType}    _
     ${scenario}    Set Variable   ${pattern}[1]
     Log   templateType= ${templateType}    console=yes
+    Log   scenario= ${pattern}[1]    console=yes
+    Log    ${pattern[0]}     console=yes
      # ${templateData}=    Get Test Data With Filter    template/${pattern[0]}
      # ${data}    Set Variable   ${templateData}[${scenario}]
-    ${templateData}=    Get Test Data With Filter    template/${pattern[0]}    scenario    ${scenario}    
+    # ${templateData}=    Get Test Data With Filter    template/${pattern[0]}    scenario    ${scenario}    
+    ${templateData}=    Get Test Data With Filter    template/${pattern[0]}    scenario    ${scenario}
     sleep    5
     Log   templateData= ${templateData}    console=yes
     ${data}    Set Variable   ${templateData}[0]
