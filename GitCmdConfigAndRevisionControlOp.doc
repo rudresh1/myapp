@@ -505,7 +505,7 @@
   585  ls
   586  history > GitCmdConfigAndRevisionControlOp.doc
 
-$ git branch --unset-upstream
+$ git branch --unset-upstream  -- if any faults in upstream
 
 $ git add GitCmdConfigAndRevisionControlOp.doc
 
