@@ -1,0 +1,127 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Hernia US",
+    "keyList":["Side Selection_Left Groin"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+     "clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNADWithNMRoi",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            },
+    "findings":
+            {   
+			"LEFT GROIN":{
+	                "Hernia":
+	                {
+	                    "option": "Absent"
+	                },
+	                "Post-operative changes":
+	                {
+	                    "option":"No"
+	                },
+	                "Lymph nodes":
+	                {
+	                    "option": "Normal LN"
+	                },
+	                "Adductor origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Sartorius origin":
+	                {
+	                    "option": "NAD"
+	                },
+	                "TFL origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Rectus femoris origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Anterior hip J": 
+	                {
+	                    "option": "Comments",
+	                    	"checkboxOptions":
+	                        [{
+	                            "checkboxName":"Tenderness",
+	                            "type": "required_Fixed",
+	                            "option":"No"
+	                        },
+	                        {
+	                             "checkboxName":"Joint effusion",
+	                             "type": "required_Fixed",
+	                             "option":"No"
+	                        },
+	                        {
+	                            "checkboxName":"Osteoarthritis",
+	                            "type": "required_Fixed",
+	                            "option": "No"
+	                            
+	                        },
+	                        {
+	                            "checkboxName":"Hyperaemia",
+	                            "type": "required_Fixed",
+	                            "option": "No"
+	                            
+	                        }]
+	                },
+	                "LFCN": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Other findings":
+	                {
+	                	"option": "None"
+	                },
+	                "COMMENT":
+	                {
+	                	"option": "NAD"
+	                }
+	             }
+	              
+                
+            },    
+    "conclusions":
+        {
+           "Further APT":
+                {
+                    "option":"No"
+                }
+        }
+   
+  
+
+
+    }
+]
+
+

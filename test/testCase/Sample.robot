@@ -42,8 +42,8 @@ Simple Test Case
     Goto Workshop
     # Verify Header and Page List
     Selecting The Page    ${member['pageName']}
-    Fill Findings in Abdominal    ${member}
-    Fill Clinical Hx In Abdominal    ${member}
+    # Fill Findings in Abdominal    ${member}
+    # Fill Clinical Hx In Abdominal    ${member}
     
         # ${data}    Set Variable    ${member}[clinicalHx][ScanQualit]
         # ${field}    Set Variable    ${data}[subOption]
@@ -71,26 +71,26 @@ Simple Test Case
     # Surgical Hx    No
     # Surgical Hx    Yes    Rt. Partial Nephrectomy    string goes here    
     
-    Liver    NAD
-    Liver    isNM=true
-    Liver    isNM=false
-    Liver    size=100
-    Liver    Comments    isNM=true 
+    # Liver    NAD
+    # Liver    isNM=true
+    # Liver    isNM=false
+    # Liver    size=100
+    # Liver    Comments    isNM=true 
      
     
-    Free Fluid    No
-    # Free Fluid    Comments   freetext    true
-    Free Fluid    NE         
+    # Free Fluid    No
+    # # Free Fluid    Comments   freetext    true
+    # Free Fluid    NE         
     
     
-    Other Findings    None    
-    Other Findings    Comments    texthere
+    # Other Findings    None    
+    # Other Findings    Comments    texthere
     
-    Conclusion    No    
-    Conclusion    Comments    texthere
+    # Conclusion    No    
+    # Conclusion    Comments    texthere
     
-    Follow up    No
-    Follow up    Yes    texthere
+    # Follow up    No
+    # Follow up    Yes    texthere
     
   
 

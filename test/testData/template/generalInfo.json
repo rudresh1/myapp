@@ -5,10 +5,10 @@
 		"allField":{
 			"generalInfo":
 	        {   
-	            "site-name": "site",
+	            "site-name": "Baldivis",
 	            "DOB":"27/07/2020",
 				"gender": "Male",
-				"Room"	: "abc"
+				"Room"	: "US 1"
 	        }
 		}
 	}

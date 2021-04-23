@@ -9,6 +9,7 @@ ${logOutLoc}    (//div[@class='headerbar-right']//li[contains(.,'Logout')])[2]
 
 LogOut From Application
     Log    Loging Out of Application    DEBUG    console=yes
+    
     Wait Until Element Is Enabled     class:profile-info    120
     Click Element    class:profile-info
     Wait Until Element Is Enabled    ${logOutLoc}    

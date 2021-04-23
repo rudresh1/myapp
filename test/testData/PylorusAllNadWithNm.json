@@ -1,0 +1,33 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Paediatrics Pyloric US",
+    "keyList":["NM","NAD"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_AllNadWithNm"
+        },
+    "findings":
+        {
+            "templateType": "findings_AllNadWithNm"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_AllNadWithNm"
+        }
+   
+  
+
+
+    }
+]
+
+

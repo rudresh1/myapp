@@ -8,7 +8,8 @@
 	"Scrotal US","Obstrectics US","Shoulder US","Elbow US",
 	"Wrist / Hand / Thumb / Fingers US","Hip US","Knee US","Calf US","Ankle / Foot US",
 	"Arterial Doppler","Venous Doppler","CVI Doppler","Paediatrics Brain US","Paediatrics Spine US",
-	"Paediatrics Pyloric US","Paediatrics Hip US"]
+    "Paediatrics Pyloric US","Paediatrics Hip US"],
+    "findings":["Liver","Portal vein","Gallbladder","CBD","Pancreas","Spleen","Right kidney","Left kidney","Aorta","Free fluid","Lymph nodes","RIF","LIF","Other findings"]
 		
    }
 ]

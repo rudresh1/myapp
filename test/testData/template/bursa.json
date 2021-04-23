@@ -1,21 +1,16 @@
 [
     {"scenario": ""},
 	{
-        "scenario": "B1",        
-        "B1":{
-            "shoulder":
+        "scenario": "ALLCommentsWith1OptionMandatory",        
+        "ALLCommentsWith1OptionMandatory":{
+            "bursa":
             {   
-
-                "B":
+				
+                "Iliopsoas B":
                 {
                     "option": "Comments",
                         "checkboxOptions":
                         [{
-                            "checkboxName":"Impingement",
-                            "type": "required_Fixed",
-                            "option":"No"
-                        },
-                        {
                              "checkboxName":"Thickening",
                              "type": "required_Fixed",
                              "option":"No"
@@ -34,18 +29,6 @@
                         },
                         {
                             "checkboxName":"Debris",
-                            "type": "required_Fixed",
-                            "option": "No"
-                            
-                        },
-                        {
-                            "checkboxName":"Hyperaemia",
-                            "type": "required_Fixed",
-                            "option": "No"
-                            
-                        },
-                        {
-                            "checkboxName":"Fatty atrophy of muscle belly",
                             "type": "required_Fixed",
                             "option": "No"
                             
@@ -86,7 +69,7 @@
                             "textArea": "textArea"
                             
                         }]
-                    
+	                    
                 }
             }
         }

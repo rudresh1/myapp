@@ -1,0 +1,36 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Renal US",
+    "keyList":["Enter Size","NAD"],
+      "state":"green",
+    "scenario":"AllNadWithSize",
+    "findings1":["Right kidney","Left kidney","Urinary bladder","Ureteric jets","Other findings"],    
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_AllNadWithSize"
+        },
+    "findings":
+        {
+            "templateType": "findings_AllNadWithSize"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_AllNadWithSize"
+        }
+   
+  
+
+
+    }
+]
+
+

@@ -41,3 +41,44 @@ def get_test_data_with_filter(fileName, testDataKey="", testDataValues="", exclu
             output_dict.append(temp)
     return output_dict
 
+
+def get_patient_id():
+	root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/testData/' + 'patientID.txt'
+	 
+	readfile = open(root_dir, 'r') 
+  
+	# Reading from the file 
+	content = readfile.readlines() 
+	  
+	# Varaible for storing the sum 
+	patientId = 0
+	  
+	# Iterating through the content 
+	# Of the file 
+	for line in content:
+		if line.isdigit() == True:
+			patientId += int(line)
+			patientId +=1
+			
+		#for i in line: 
+          
+        # Checking for the digit in  
+        # the string 
+	       # if i.isdigit() == True: 
+	              
+	          #  a += int(i)
+			
+	      
+	
+	readfile.close()
+	file = open(root_dir, 'w') 
+  
+	# Data to be written 
+	
+	  
+	# Writing to file 
+	file.write(str(patientId)) 
+	  
+	# Closing file 
+	file.close()  
+	return patientId 

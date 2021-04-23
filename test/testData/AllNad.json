@@ -1,10 +1,14 @@
 [
     {
     "username": "locum2@primeradiology.com.au",
-    "password": "PrimeRadiology",
+    "password": "password123",
     "ultrasoundRoom": "Baldivis - US 1",
     "rooms":["Baldivis - US 2", "Others"],
     "pageName":"Abdominal US",
+    "keyList":["NAD"],
+    "state":"green",
+    "scenario":"ALLNAD",
+    "findings1":["Liver","Portal vein","Gallbladder","CBD","Pancreas","Spleen","Right kidney","Left kidney","Aorta","Free fluid","Lymph nodes","RIF","LIF","Other findings"],
     "GeneralDetails":
     {
         "templateType": "generalInfo_allField"
@@ -14,10 +18,65 @@
             "templateType": "clinicalHx_ALLNAD"
         },
     "findings":
-        {
-            "templateType": "findings_ALLNAD"
+            {   
 
-        },    
+                "Liver":
+                {
+                    "option": "NAD"
+                },
+                "Portal vein":
+                {
+                    "option":"NAD"
+                },
+                "Gallbladder":
+                {
+                    "option": "NAD"
+                },
+                "CBD": 
+                {
+                    "option": "NAD"
+                },
+                "Pancreas":
+                {
+                    "option": "NAD"
+                },
+                "Spleen": 
+                {
+                    "option": "NAD"
+                },
+                "Right kidney": 
+                {
+                    "option": "NAD"
+                },
+                "Left kidney": 
+                {
+                    "option": "NAD"
+                },
+                "Aorta": 
+                {
+                    "option": "NAD"
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Lymph nodes": 
+                {
+                    "option": "Normal LN"
+                },
+                "RIF": 
+                {
+                    "option": "NAD"
+                },
+                "LIF": 
+                {
+                    "option": "NAD"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            },    
     "conclusions":
         {
             "templateType": "conclusion_ALLNAD"

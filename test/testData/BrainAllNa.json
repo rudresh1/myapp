@@ -1,0 +1,36 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Paediatrics Brain US",
+    "keyList":["NA","NAD"],
+    "scenario":"AllNadWithSize",
+    "state":"grey",
+    "findings1":["Liver","Portal vein","Gallbladder","CBD","Pancreas","Spleen","Right kidney","Left kidney","Aorta","Free fluid","Lymph nodes","RIF","LIF","Other findings"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_ALLNA"
+        },
+    "findings":
+        {
+            "templateType": "findings_ALLNA"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_ALLNA"
+        }
+   
+  
+
+
+    }
+]
+
+

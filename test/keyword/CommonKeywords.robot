@@ -69,6 +69,8 @@ Click Element With Log Display
     [Arguments]    ${location}    ${elementName}
     Log    Clicking on '${elementName}'    DEBUG    console=yes
     Click Element    ${location}
+    # Scroll Element Into View    //tr[@note-structure='Thyroid']//input[@type='radio' and @state='green']
+    # Click Element    //tr[@note-structure='Thyroid']//input[@type='radio' and @state='green']
 
 Input Text With Log Display
     [Documentation]    For Input element value and displaying log 
@@ -83,7 +85,8 @@ Select Value For Field
     [Arguments]    ${fieldName}    ${value}
     ${location}    Set Variable    (//tr[@note-structure="${fieldName}"]//label[span[text()='${value}']])[1]
     Scroll Element Into View    ${location}
-    Click Element With Log Display    ${location}    Selecting '${value}' for field '${fieldName}'    
+    Click Element With Log Display    ${location}    Selecting '${value}' for field '${fieldName}' 
+       
     
 
 Enter Date In Sub-Field
@@ -117,14 +120,17 @@ Select Dropdown By Text
 
 Toggle Field
     [Documentation]    Toggle checkbox
-    [Arguments]    ${field}    ${checkBoxName}    ${checkOption}
-    ${chkBoxLocator}    Set Variable    (//tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and contains(@class,'checkbox-styled')])[1]
-    ${checkedCount}    Get Element Count    (//tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and (contains(@class,'sec-red-class') or contains(@class,'active-radio'))])[1]
+    [Arguments]    ${field}    ${checkBoxName}    ${checkOption}    ${sideSelectionKey}=${None}
+    ${chkBoxLocator}=    Run Keyword If    '${sideSelectionKey}' != '${None}'    Set Variable    (//tr[td//span/b[text()='${sideSelectionKey}']]/following-sibling::tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and contains(@class,'checkbox-styled')])[1]   
+    ...    ELSE    Set Variable    (//tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and contains(@class,'checkbox-styled')])[1]
+    # ${chkBoxLocator}    Set Variable    (//tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and contains(@class,'checkbox-styled')])[1]
+    ${checkedCount}=    Run Keyword If    '${sideSelectionKey}' != '${None}'    Get Element Count    (//tr[td//span/b[text()='${sideSelectionKey}']]/following-sibling::tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and (contains(@class,'sec-red-class') or contains(@class,'active-radio'))])[1]
+    ...    ELSE    Get Element Count    (//tr[@note-structure='${field}']//label[./input[@value='${checkBoxName}'] and (contains(@class,'sec-red-class') or contains(@class,'active-radio'))])[1]
     ${checkOption}    Convert To Lower Case    ${checkOption}
    
     Scroll Element Into View    ${chkBoxLocator}
 
-    Run Keyword If    "${checkOption}"=="true" and ${checkedCount}<1    Run keywords
+    Run Keyword If    "${checkOption}"=="true" and ${checkedCount}<=1    Run keywords
     ...    Log    Checking ${checkBoxName} option for ${field} field    DEBUG    console=yes
     ...    AND    Click Element    ${chkBoxLocator}
     ...    ELSE IF    "${checkOption}"=="false" and ${checkedCount}>0    Run keywords
@@ -149,6 +155,83 @@ Enter Size In Sub-Field
    
     
 
+Fill Mandatory Fields
+    # sleep    1
+    # [Arguments]    ${locators}
+    ${locators}    Set Variable    xpath=(//label[input[@type='radio'] and contains(@class,'validate-error')][1])
+    ${count}    Get Element Count    ${locators}
+    # ${count}=     evaluate    ${count}+1
+    # ${option}    Set Variable    ${count}
+    Log   ${count}     console=yes 
+    # FOR    ${Index}    IN RANGE    1    ${count}
+        # Log   fill-${Index}     console=yes
+        # # ${option}=     evaluate    ${option}-1 
+        # # sleep    1
+        # ${present}=    Run Keyword And Return Status    Element Should Be Visible    ${locators}\[${Index}\]
+        # Run keyword if    ${present}    Run keywords
+        # ...    Wait Until Keyword Succeeds    1min    3sec    Scroll Element Into View    ${locators}\[${Index}\]    AND
+        # ...    Wait Until Keyword Succeeds    1min    10sec    Click Element    ${locators}\[${Index}\]
+        # ${reCount}    Get Element Count    ${locators}
+        # ${expectedCount}=    Evaluate    ${count}-${index}-1  
+        # Run keyword if    ${reCount} != ${expectedCount}    Fill Mandatory Fields
+        # Exit For Loop If    ${reCount} != ${expectedCount}      
+    # END
+    
+    ${present}=    Run Keyword And Return Status    Element Should Be Visible    ${locators}\[${count}\]
+    Run keyword if    ${present}    Run keywords
+    ...    Wait Until Keyword Succeeds    1min    3sec    Scroll Element Into View    ${locators}\[${count}\]    AND
+    ...    Wait Until Keyword Succeeds    1min    10sec    Click Element    ${locators}\[${count}\]
+        
+    ${reCount}    Get Element Count    ${locators}
+    Run keyword if    ${reCount}>=1    Fill Mandatory Fields
+    # Wait Until Keyword Succeeds    1min    1sec    sleep    1
+    # Run Keyword And Continue On Failure    Wait Until Keyword Succeeds    0min    20sec    Scroll Element Into View    xpath=(//tr//td[2]//div/label[./input[@type='radio'] and contains(@class,'validate-error')][1])[2]
+    # Run Keyword And Continue On Failure    Wait Until Keyword Succeeds    0min    20sec    Scroll Element Into View    ${locators}\[2\]
+    
 
+    ${checkBoxlocators}    Set Variable    xpath=(//div[contains(@class,'validate-error')]/label[input[@type='checkbox']])
+    ${checkBoxCount}    Get Element Count    ${checkBoxlocators}
+    ${present}=    Run Keyword And Return Status    Element Should Be Visible    ${checkBoxlocators}\[${checkBoxCount}\]
+    Run keyword if    ${present}    Run keywords
+    ...    Wait Until Keyword Succeeds    1min    3sec    Scroll Element Into View    ${checkBoxlocators}\[${checkBoxCount}\]    AND
+    ...    Wait Until Keyword Succeeds    1min    10sec    Click Element    ${checkBoxlocators}\[${checkBoxCount}\]
+        
+    ${checkBoxReCount}    Get Element Count    ${checkBoxlocators}
+    Run keyword if    ${checkBoxReCount}>=1    Fill Mandatory Fields
+
+
+
+    
+    ${textLocator}    Set Variable    xpath=(//input[@type='text' and contains(@class,'validate-error')])
+    ${countTextLocator}    Get Element Count    ${textLocator}
+    ${countTextLocator}=    evaluate    ${countTextLocator}+1
+    FOR    ${Index}    IN RANGE    1    ${countTextLocator}
+        Log   fill-${Index}     console=yes
+        ${sizeVal}    Generate random string    2    0123456789 
+        # sleep    1
+        ${present}=    Run Keyword And Return Status    Element Should Be Visible    ${textLocator}\[${Index}\]
+        Run keyword if    ${present}    Run keywords
+        ...    Wait Until Keyword Succeeds    1min    3sec    Scroll Element Into View    ${textLocator}\[${Index}\]    AND
+        ...    Wait Until Keyword Succeeds    1min    10sec    Input Text    ${textLocator}\[${Index}\]    ${sizeVal}
+    
+    END
+    
+    ${textAreaLocator}    Set Variable    xpath=(//textarea[contains(@class,'validate-error')])
+    ${countTextLocator}    Get Element Count    ${textAreaLocator}
+    ${countTextLocator}=    evaluate    ${countTextLocator}+1
+    FOR    ${Index}    IN RANGE    1    ${countTextLocator}
+        Log   fill-${Index}     console=yes
+        ${Val}    Generate random string    5    
+        # sleep    1
+        ${present}=    Run Keyword And Return Status    Element Should Be Visible    ${textAreaLocator}\[${Index}\]
+        Run keyword if    ${present}    Run keywords
+        ...    Wait Until Keyword Succeeds    1min    3sec    Scroll Element Into View    ${textAreaLocator}\[${Index}\]    AND
+        ...    Wait Until Keyword Succeeds    1min    10sec    Input Text    ${textAreaLocator}\[${Index}\]    ${Val}
+    
+    END
+    # Wait Until Keyword Succeeds    1min    3sec    Click Element    xpath=(//tr//td[2]//div/label[./input[@type='radio'] and contains(@class,'validate-error')][1])[2]
+    # ${present}=    Run Keyword And Return Status    Element Attribute Value Should Be    //label/input[@type='radio']    class    validate-error 
+    # log    ${present}    console=yes   
+    # Element Should Contain    //label/input[]    expected    
 
     

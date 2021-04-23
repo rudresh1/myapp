@@ -1,10 +1,14 @@
 [
     {
     "username": "locum2@primeradiology.com.au",
-    "password": "PrimeRadiology",
+    "password": "password123",
     "ultrasoundRoom": "Baldivis - US 1",
     "rooms":["Baldivis - US 2", "Others"],
     "pageName":"Abdominal US",
+    "keyList":["Enter Size","NAD"],
+      "state":"green",
+    "scenario":"AllNadWithSize",
+    "findings1":["Liver","Portal vein","Gallbladder","CBD","Pancreas","Spleen","Right kidney","Left kidney","Aorta","Free fluid","Lymph nodes","RIF","LIF","Other findings"],
     "GeneralDetails":
     {
         "templateType": "generalInfo_allField"

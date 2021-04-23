@@ -1,0 +1,33 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Wrist / Hand / Thumb / Fingers US",
+    "keyList":["Side Selection_11","NA","NAD"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_AllNadWithNmRoi"
+        },
+    "findings":
+        {
+            "templateType": "findings_AllNadWithNmRoi"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_AllNadWithNmRoi"
+        }
+   
+  
+
+
+    }
+]
+
+

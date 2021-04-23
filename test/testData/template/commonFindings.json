@@ -1,0 +1,35 @@
+[
+    {"scenario": ""},
+	{
+        "scenario": "ALLNAD",        
+        "ALLNAD":{
+            "commonFindings":
+            {
+				"Alpha angle":
+                {
+                    "text": "1"	                 
+                },
+                "Beta angle":
+                {
+                    "text": "1"	                    
+                },
+                "Femoral head coverage":
+                {
+                    "text": "1"	                    
+                },
+                "Acetabular Labrum":
+                {
+                    "option": "Sharply defined"	                    
+                },
+                "Acetabular bony rim":
+                {
+                    "option": "Sharply defined"	                    
+                },
+                "Dynamic imaging (To assess Stability)":
+                {
+                    "option": "Stable"	                    
+                }
+            }
+        }
+	}
+]

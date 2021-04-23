@@ -1,0 +1,1049 @@
+[
+    {"scenario": ""},
+    {
+        "scenario": "ALLNAD",
+    	"ALLNAD":{
+    		"findings":
+            {   
+
+                "Uterus size":
+                {
+                    "option": "NAD"
+                },
+                "Uterus position":
+                {
+                    "option":"Anteverted"
+                },
+                "Uterus shape":
+                {
+                    "option": "NAD"
+                },
+                "Endometrium": 
+                {
+                    "option": "NAD"
+                },
+                "Myometrium":
+                {
+                    "option": "NAD"
+                },
+                "Cervix": 
+                {
+                    "option": "NAD"
+                },
+                "Right ovary": 
+                {
+                    "option": "NAD"
+                },
+                "Right adnexa": 
+                {
+                    "option": "NAD"
+                },
+                "RIF": 
+                {
+                    "option": "NAD"
+                },
+                "Left ovary": 
+                {
+                    "option": "NAD"
+                },
+                "Left adnexa": 
+                {
+                    "option": "NAD"
+                },
+                "LIF":
+                { 
+                	"option" : "NAD"
+                },
+                "Free fluid": 
+                {
+                    "option": "No"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+    	}
+    },
+        {
+        "scenario": "ALLNA",
+    	"ALLNAD":{
+    		"findings":
+            {   
+
+                "Uterus size":
+                {
+                    "option": "NAD"
+                },
+                "Uterus position":
+                {
+                    "option":"NAD"
+                },
+                "Uterus shape":
+                {
+                    "option": "N A"
+                },
+                "Endometrium": 
+                {
+                    "option": "N A"
+                },
+                "Myometrium":
+                {
+                    "option": "N A"
+                },
+                "Cervix": 
+                {
+                    "option": "N A"
+                },
+                "Right ovary": 
+                {
+                    "option": "N A"
+                },
+                "Right adnexa": 
+                {
+                    "option": "N A"
+                },
+                "RIF": 
+                {
+                    "option": "N A"
+                },
+                "Left ovary": 
+                {
+                    "option": "N A"
+                },
+                "Left adnexa": 
+                {
+                    "option": "N A"
+                },
+                "LIF":
+                { 
+                	"option" : "N A"
+                },
+                "Free fluid": 
+                {
+                    "option": "N A"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            }
+    	}
+    },
+    {
+        "scenario": "AllCheckboxesWith1OptionandTextArea",        
+        "AllCheckboxesWith1OptionandTextArea":{
+            "findings":
+            {   
+
+                "Uterus size":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [
+                        {
+                            "checkboxName":"Size",
+                            "option":"Normal"    
+                        },
+                        {
+                            "checkboxName":"Technical Factors",
+                            "option":"Not visualized"
+                                                               
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "textArea":"text area"  
+                        }]
+                },
+                                 
+                "Uterus position":
+                {
+                    "option":"Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"TA Position",                       
+                            "option":"Anteverted"
+                            
+                        },
+                        {
+                            "checkboxName":"TV Position",
+                            "option":"Anteverted"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "textArea":"text area"  
+                        }]
+                },
+                "Uterus shape":
+                {
+                    "option":"Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Uterus shape",                       
+                            "Not appplicable":"true"
+              			}]
+                },
+                
+                "Endometrium": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Thickness",
+                        "option":"Normal in thickness"
+                    },
+                    {
+                        "checkboxName":"Appearance",
+                        "option": "Uniform and thin"
+                    },
+                    {
+                        "checkboxName":"Appearance for current menstrual phase",
+                        "option":"consistant"
+                    },
+                    {
+                    	"checkboxName":"Blood clots",
+                        "option":"No"                    
+                    },
+                    {
+                         "checkboxName":"Cyst (Endometrial cyst)",
+                         "option":"No"
+                    },
+                    {
+                         "checkboxName":"Cyst  (Subenometrial Cyst)",
+                         "option":"No"
+                    },
+                    { 
+                    	"checkboxName" : "Endometrial polyp",
+                    	"option":"No"
+                    },
+                    { 
+                    	"checkboxName" : "Endometrial not visualized",
+                    	"textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Fluid in the endometrial canal",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"RPOC/Retained products of conception",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Haematometra",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Endometrial assessment suboptimal due to IUCD",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Endometrial assessment was suboptimal IUCD",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Surgery",
+                        "option":"Endometrial ablation"
+                          
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                    
+                },
+                "Myometrium":
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Echotexture",
+                        "option":"Homogenous"
+                        
+                    },
+                    {
+                        "checkboxName":"Any fibroid seen ?",
+                        "option": "No"
+                    },
+                    {
+                        "checkboxName":"Adenomyosis",
+                        "textArea": "Free text"
+                        
+                    },
+                    {
+                        "checkboxName":"Calcification",
+                        "textArea": "Free text"
+                        
+                    },
+                     {
+                        "checkboxName":"Cyst",
+                        "option": "No"
+                        
+                    },
+                     {
+                        "checkboxName":"Dialated myometrial veins",
+                        "textArea": "Nothing to worry"
+                      
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Cervix": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Cervical polyp",
+                        "option": "No"                     
+                    },               
+                   {
+                        "checkboxName":"Fluid in cervical canal",
+                        "option":"No"
+                    },             
+                    {
+                        "checkboxName":"Nabothian cyst",
+                        "option":"No"
+                        
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                  
+                },
+                "Right ovary": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "option":"Normal-sized"
+                        },
+                        {
+                            "checkboxName":"Antral follicle(2-9mm)count",
+                             "option":"No"
+                        },
+                        {
+                        	"checkboxName":"Dominant follicle",
+                   		    "option":"No"
+                        },
+                        {
+                        	"checkboxName":"Corpus luteum",
+                   		    "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cyst",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Ovarian tenderness",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"Ovarian torsion",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"Ovarian vascularity",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"PCO morphology",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Solid Lesion",
+                             "option":"No"
+                        },
+                        { 
+                        	"checkboxName":"Surgery",
+                        	"option":"Others",
+                        	"textArea" : "Text Area"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                             "textArea":"text area"
+                        }]
+                   
+                },
+                "Right adnexa": 
+                {
+                       "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Paraovarian cyst",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Hydosalplnx",
+                             "textArea":"Text area"
+                        },
+                        {
+                            "checkboxName":"Fibroid broad ligament",
+                             "textArea":"Text area"
+                        },
+                        {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                        
+                    	}]
+                },
+                
+               "RIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                       [
+                    {
+                        "checkboxName":"Appendix",
+                        "option":"Not seen"
+                    },
+                    {
+                        "checkboxName":"Probe tendersness",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Intussusception",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of  RIF",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Left ovary": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "option":"Normal-sized"
+                        },
+                        {
+                            "checkboxName":"Antral follicle(2-9mm)count",
+                             "option":"No"
+                        },
+                        {
+                        	"checkboxName":"Dominant follicle",
+                   		    "option":"No"
+                        },
+                        {
+                        	"checkboxName":"Corpus luteum",
+                   		    "option":"No"
+                        },
+                        {
+                            "checkboxName":"Cyst",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Ovarian tenderness",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"Ovarian torsion",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"Ovarian vascularity",
+                            "option":"No"
+                        },
+                        {
+                            "checkboxName":"PCO morphology",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Solid Lesion",
+                             "option":"No"
+                        },
+                        { 
+                        	"checkboxName":"Surgery",
+                        	"option":"Others",
+                        	"textArea" : "Text Area"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                             "textArea":"text area"
+                        }]
+                   
+                },
+                "Left adnexa": 
+                {
+                       "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Paraovarian cyst",
+                             "option":"No"
+                        },
+                        {
+                            "checkboxName":"Hydosalplnx",
+                             "textArea":"Text area"
+                        },
+                        {
+                            "checkboxName":"Fibroid broad ligament",
+                             "textArea":"Text area"
+                        },
+                        {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                        
+                    	}]
+                },
+                
+               "LIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                   [{
+                        "checkboxName":"Probe tendersness",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "option":"No"
+                    },
+                    {
+                        "checkboxName":"Intussusception",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of  RIF",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                
+
+                "Free fluid": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Size",
+                        "option":"Trace"
+                    },
+                    {
+                        "checkboxName":"Location",
+                        "option":"Pouch of douglas"
+                    },           
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Other findings": 
+                {
+                    "option": "Comments",
+                    "textArea": "otherfindings text"
+                }
+            }
+        }
+    },
+    { 
+        "scenario": "AllCheckboxesWithLastOptionandTextArea",        
+        "AllCheckboxesWithLastOptionandTextArea":{
+            "findings":
+            {   
+
+                "Uterus size":
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [
+                        {
+                            "checkboxName":"Size",
+                            "option":"Others",
+                            "textArea":"No need to worry"    
+                        },
+                        {
+                            "checkboxName":"Technical Factors",
+                            "option":"Not visualized"
+                                                               
+                        },
+                        {
+                            "checkboxName":"Free text",
+                            "textArea":"text area"  
+                        }]
+                },
+                                 
+                "Uterus position":
+                {
+                    "option":"Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"TA Position",                       
+                            "option":"Others",
+                            "textArea":"Text Area"
+                            
+                        },
+                        {
+                            "checkboxName":"TV Position",
+                            "option":"Others",
+                            "textArea":"Text Area"
+                        }]
+                },
+                "Uterus shape":
+                {
+                    "option":"Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Uterus shape",                       
+                            "Not appplicable":"true"
+              			}]
+                },
+                
+                "Endometrium": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Thickness",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Appearance",
+                        "option": "Others",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Appearance for current menstrual phase",
+                        "option":"Not applicable"
+                    },
+                    {
+                    	"checkboxName":"Blood clots",
+                        "option":"Others",
+                    	"textArea":"Text Area"
+                    },
+                    {
+                         "checkboxName":"Cyst (Endometrial cyst)",
+                         "option":">10"
+                    },
+                    {
+                         "checkboxName":"Cyst  (Subendometrial Cyst)",
+                         "option":">10"
+                    },
+                    { 
+                    	"checkboxName" : "Endometrial polyp",
+                    	"option":"No"
+                    },
+                    { 
+                    	"checkboxName" : "Endometrial not visualized",
+                    	"textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Fluid in the endometrial canal",
+                        "option": "Others",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"RPOC/Retained products of conception",
+                        "option": "Others",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Haematometra",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Endometrial assessment suboptimal due to IUCD",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Endometrial assessment was suboptimal IUCD",
+                        "textArea":"Text Area"
+                    },
+                    {
+                        "checkboxName":"Surgery",
+                        "option":"Others",
+                        "textArea":"enter the text"
+                          
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                    
+                },
+                "Myometrium":
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Echotexture",
+                        "option":"Others",
+                        "textArea": "Free text"
+                        
+                    },
+                    {
+                        "checkboxName":"Any fibroid seen ?",
+                        "option": ">10"
+                      
+                        
+                    },
+                    {
+                        "checkboxName":"Adenomyosis",
+                        "textArea": "Free text"
+                        
+                    },
+                    {
+                        "checkboxName":"Calcification",
+                        "textArea": "Free text"
+                        
+                    },
+                     {
+                        "checkboxName":"Cyst",
+                        "option": ">10"
+                        
+                    },
+                     {
+                        "checkboxName":"Dialated myometrial veins",
+                        "textArea": "Nothing to worry"
+                      
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Cervix": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Cervical polyp",
+                        "option": ">10"                     
+                    },               
+                   {
+                        "checkboxName":"Fluid in cervical canal",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },             
+                    {
+                        "checkboxName":"Nabothian cyst",
+                        "option":">10"
+                        
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                  
+                },
+                "Right ovary": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "option":"Others",
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Antral follicle(2-9mm)count",
+                             "option":">20"
+                        },
+                        {
+                        	"checkboxName":"Dominant follicle",
+                   		    "option":"Others",
+                        	"textArea": "text area"
+                        },
+                        {
+                        	"checkboxName":"Corpus luteum",
+                   		    "option":"Others",
+                        	"textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Cyst",
+                             "option":">10"
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                             "option":">10"
+                        },
+                        {
+                            "checkboxName":"Ovarian tenderness",
+                            "option":"Others",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Ovarian torsion",
+                            "option":"Others",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Ovarian vascularity",
+                            "option":"Others",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"PCO morphology",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Solid Lesion",
+                             "option":">10"
+                        },
+                        { 
+                        	"checkboxName":"Surgery",
+                        	"option":"Others",
+                        	"textArea" : "Text Area"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                             "textArea":"text area"
+                        }]
+                   
+                },
+                "Right adnexa": 
+                {
+                       "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Paraovarian cyst",
+                             "option":">10"
+                        },
+                        {
+                            "checkboxName":"Hydosalplnx",
+                             "textArea":"Text area"
+                        },
+                        {
+                            "checkboxName":"Fibroid broad ligament",
+                             "textArea":"Text area"
+                        },
+                        {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                        
+                    	}]
+                },
+                
+               "RIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                       [
+                    {
+                        "checkboxName":"Appendix",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Probe tendersness",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "option":"Present"
+                    },
+                    {
+                        "checkboxName":"Intussusception",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of  RIF",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Left ovary": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "option":"Others",
+                             "textArea":"test area"
+                        },
+                        {
+                            "checkboxName":"Antral follicle(2-9mm)count",
+                             "option":">20"
+                        },
+                        {
+                        	"checkboxName":"Dominant follicle",
+                   		    "option":"Others",
+                        	"textArea": "text area"
+                        },
+                        {
+                        	"checkboxName":"Corpus luteum",
+                   		    "option":"Others",
+                        	"textArea": "text area"
+                        },
+                        {
+                            "checkboxName":"Cyst",
+                             "option":">10"
+                        },
+                        {
+                            "checkboxName":"Calcification",
+                             "option":">10"
+                        },
+                        {
+                            "checkboxName":"Ovarian tenderness",
+                            "option":"Others",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Ovarian torsion",
+                            "option":"Others",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Ovarian vascularity",
+                            "option":"Others",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"PCO morphology",
+                             "textArea":"text area"
+                        },
+                        {
+                            "checkboxName":"Solid Lesion",
+                             "option":">10"
+                        },
+                        { 
+                        	"checkboxName":"Surgery",
+                        	"option":"Others",
+                        	"textArea" : "Text Area"
+                        },
+                        {
+                            "checkboxName":"Free text",
+                             "textArea":"text area"
+                        }]
+                   
+                },
+                "Left adnexa": 
+                {
+                       "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Paraovarian cyst",
+                             "option":">10"
+                        },
+                        {
+                            "checkboxName":"Hydosalplnx",
+                             "textArea":"Text area"
+                        },
+                        {
+                            "checkboxName":"Fibroid broad ligament",
+                             "textArea":"Text area"
+                        },
+                        {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                        
+                    	}]
+                },
+                
+               "LIF": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                       [
+                    
+                    {
+                        "checkboxName":"Probe tendersness",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Fat stranding",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free fluid",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Abscess",
+                        "option":"Present"
+                    },
+                    {
+                        "checkboxName":"Intussusception",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Normal appearance of  RIF",
+                        "textArea": "text area"
+                    },
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                
+
+                "Free fluid": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                        "checkboxName":"Location",
+                        "option":"Others",
+                        "textArea": "text area"
+                    },           
+                    {
+                        "checkboxName":"Free text",
+                        "textArea": "text area"
+                    }]
+                },
+                "Other findings": 
+                {
+                    "option": "Comments",
+                    "textArea": "otherfindings text"
+                }
+            }
+        }
+    }
+    
+    ]

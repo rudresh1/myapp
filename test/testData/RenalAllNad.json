@@ -1,10 +1,14 @@
 [
     {
     "username": "locum2@primeradiology.com.au",
-    "password": "PrimeRadiology",
+    "password": "password123",
     "ultrasoundRoom": "Baldivis - US 1",
     "rooms":["Baldivis - US 2", "Others"],
     "pageName":"Renal US",
+    "keyList":["NAD"],
+    "state":"green",
+    "scenario":"ALLNAD",
+   "findings1":["Uterus size","Uterus position","Uterus shape","Endometrium","Myometrium","Cervix","Right ovary","Right adnexa","RIF","Left ovary","Left adnexa","LIF","Free fluid","Other findings"],
     "GeneralDetails":
     {
         "templateType": "generalInfo_allField"
@@ -14,10 +18,29 @@
             "templateType": "clinicalHx_ALLNAD"
         },
     "findings":
-        {
-            "templateType": "findings_ALLNAD"
+            {   
 
-        },    
+                "Right kidney": 
+                {
+                    "option": "NAD"
+                },
+                "Left kidney": 
+                {
+                    "option": "NAD"
+                },
+                "Urinary bladder": 
+                {
+                    "option": "NAD"
+                },
+                "Ureteric jets": 
+                {
+                    "option": "Both jets seen"
+                },
+                "Other findings": 
+                {
+                    "option": "None"
+                }
+            },    
     "conclusions":
         {
             "templateType": "conclusion_ALLNAD"

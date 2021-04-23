@@ -1,0 +1,83 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Paediatrics Hip US",
+    "keyList":["NA","NAD"],
+    "scenario":"AllNadWithSize",
+    "state":"grey",
+    "findings1":["Liver","Portal vein","Gallbladder","CBD","Pancreas","Spleen","Right kidney","Left kidney","Aorta","Free fluid","Lymph nodes","RIF","LIF","Other findings"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+             "Clinical Hx (Referral)":"ALLNA",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Breech Presentation":
+                {
+                    "option":"No"
+                },
+                "Family history":
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+        },
+    "findings":
+        {
+            "Alpha angle":
+                {
+                    "text": "1"
+                },
+            "Beta angle":
+                {
+                    "text": "1.2"
+                },
+            "Femoral head coverage":
+                {
+                    "text": "1.2"
+                },
+            "Acetabular Labrum":
+                {
+                    "option": "Sharply defined"
+                },
+                "Acetabular bony rim":
+                {
+                	"option": "Sharply defined"
+                },
+                "Dynamic imaging (To assess Stability)":
+                {
+                	"option": "Stable"
+                },
+                "Other findings":
+                {
+                	"option": "None"
+                },
+            "Acetabular Labrum":
+                {
+                    "option": "Sharply defined"
+                }
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_ALLNA"
+        }
+   
+  
+
+
+    }
+]
+
+

@@ -1,0 +1,62 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Paediatrics Hip US",
+    "keyList":["NAD"],
+    "state":"green",
+    "scenario":"ALLNAD",
+    "findings1":["Liver","Portal vein","Gallbladder","CBD","Pancreas","Spleen","Right kidney","Left kidney","Aorta","Free fluid","Lymph nodes","RIF","LIF","Other findings"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "Clinical Hx (Referral)":"ALLNAD",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Breech Presentation":
+                {
+                    "option":"No"
+                },
+                "Family history":
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+        },
+    "findings":
+            {   
+				"RIGHT SIDE":{	                
+	                "commonFindings": 
+	                {
+	                    "templateType": "commonFindings_ALLNAD"
+	                }
+	             },
+	             "LEFT SIDE":{	                
+	                "commonFindings": 
+	                {
+	                    "templateType": "commonFindings_ALLNAD"
+	                }
+	             }   
+            },    
+    "conclusions":
+        {
+            "templateType": "conclusion_ALLNAD"
+        }
+   
+  
+
+
+    }
+]
+
+

@@ -34,6 +34,38 @@
 	   }
     },
     {
+        "scenario": "PelvisALLNAD",
+        "PelvisALLNAD":
+        {
+    		"clinicalHx":
+            {   
+
+                "Clinical Hx (Referral)":"ALLNAD",
+                "Hx from patient":
+                {
+                    "option": "No"
+                },
+                "Surgical Hx":
+                {
+                    "option":"No"
+                },
+                "Comparison":
+                {
+                    "option": "No"
+                },
+                "Specific ROI": 
+                {
+                    "option": "No"
+                },
+                "Scan quality":
+                {
+                    "option": "Optimal"
+                }
+
+            }
+	   }
+    },
+    {
         "scenario": "ALLNAD",
         "ALLNAD":
         {

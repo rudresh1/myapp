@@ -1,0 +1,33 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Neck and Thyroid US",
+    "keyList":["ROI","NM","NAD"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_AllNadWithSize"
+        },
+    "findings":
+        {
+            "templateType": "neckFindings_AllNadWithRoi"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_AllNadWithSize"
+        }
+   
+  
+
+
+    }
+]
+
+

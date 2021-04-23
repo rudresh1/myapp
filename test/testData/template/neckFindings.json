@@ -583,7 +583,7 @@
 						},
 						{
 							"checkboxName": "Technical factors",
-							"textArea": "Suboptimal"
+							"option": "Suboptimal"
 						},
 						{
 							"checkboxName": "Free text",

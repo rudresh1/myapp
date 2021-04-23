@@ -23,14 +23,14 @@ Fill US Shoulder Form
     Run keyword if  'side Selection' in @{member}    Fill Side selection in Shoulder    ${member}[side Selection]
     Run keyword if  'comments' in @{member}    Fill Comment in Adbominal    ${member}[comments]
 
-side Selection
-    [Documentation]    selecting the options of Side selection
-    [Arguments]    ${data}    ${check}=true
-    sleep    2
-    Log    ${data}[option]
-    Select Value For Field    Side selection    ${data}[option]
-    # Run Keyword If    '${data}[option]'=='Suboptimal'
-    # ...    Toggle Field And Their Corresponding Comment Section    Scan quality    ${data}[checkboxOptions]    ${check}
+# side Selection
+    # [Documentation]    selecting the options of Side selection
+    # [Arguments]    ${data}    ${check}=true
+    # sleep    2
+    # Log    ${data}[option]
+    # Select Value For Field    Side selection    ${data}[option]
+    # # Run Keyword If    '${data}[option]'=='Suboptimal'
+    # # ...    Toggle Field And Their Corresponding Comment Section    Scan quality    ${data}[checkboxOptions]    ${check}
 
 
 Fill Clinical Hx In Shoulder

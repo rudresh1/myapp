@@ -22,21 +22,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>libspecs/BuiltIn.py</name>
-			<type>1</type>
-			<location>C:/Users/Jalaja/AppData/Local/Programs/Python/Python38-32/lib/site-packages/robot/libraries/BuiltIn.py</location>
-		</link>
-		<link>
-			<name>libspecs/Collections.py</name>
-			<type>1</type>
-			<location>C:/Users/Jalaja/AppData/Local/Programs/Python/Python38-32/lib/site-packages/robot/libraries/Collections.py</location>
-		</link>
-		<link>
-			<name>libspecs/Reserved.py</name>
-			<type>1</type>
-			<location>C:/Users/Jalaja/AppData/Local/Programs/Python/Python38-32/lib/site-packages/robot/libraries/Reserved.py</location>
-		</link>
-		<link>
 			<name>libspecs/String.py</name>
 			<type>1</type>
 			<location>C:/Users/Jalaja/AppData/Local/Programs/Python/Python38-32/lib/site-packages/robot/libraries/String.py</location>

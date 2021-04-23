@@ -1,8 +1,8 @@
 [
     {"scenario": ""},
 	{
-        "scenario": "Option1",        
-        "Option1":{
+        "scenario": "ALLCommentsWith1OptionMandatory",        
+        "ALLCommentsWith1OptionMandatory":{
              "option": "Comments",
                         "checkboxOptions":
                         [{

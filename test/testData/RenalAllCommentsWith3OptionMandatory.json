@@ -1,0 +1,31 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Renal US",
+    "keyList":["Comment Options_3"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_ALLCommentsWith1OptionMandatory"
+        },
+    "findings":
+        {
+            "templateType": "findings_ALLCommentsWith1OptionMandatory"
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_ALLCommentsWith1OptionMandatory"
+        }
+   
+  
+
+
+    }
+]

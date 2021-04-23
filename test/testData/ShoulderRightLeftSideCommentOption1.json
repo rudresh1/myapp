@@ -1,0 +1,38 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Shoulder US",
+    "keyList":["Side Selection_1","Side Selection_2","Comment Options_1"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_AllNadWithNmRoi"
+        },
+           "findings":
+            {   
+
+                "Subacromial B":
+                {
+                    "templateType": "bursa_ALLCommentsWith1OptionMandatory"
+                  }
+                    
+            },
+    
+    "conclusions":
+        {
+            "templateType": "conclusion_AllNadWithNmRoi"
+        }
+   
+  
+
+
+    }
+]
+
+

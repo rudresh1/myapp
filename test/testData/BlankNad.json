@@ -1,0 +1,35 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Blank US",
+    "keyList":["NAD"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_AllNadWithNmRoi"
+        },
+    "findings":
+        {
+            "Findings":{
+            	"textArea": "text area"
+            }
+
+        },    
+    "conclusions":
+        {
+            "templateType": "conclusion_AllNadWithNmRoi"
+        }
+   
+  
+
+
+    }
+]
+
+

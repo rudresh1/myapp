@@ -1,0 +1,18 @@
+[
+	{
+		"username":"lucomo",
+		"password": "password1234",
+		"general details":{
+		"scenario":"AllNad",
+		"findings": ["liver","abdomin"]
+		},
+		"scenario":{
+			"Liver":"val",
+			"ka":"kvd"
+		}
+		
+	}	
+	
+]
+
+

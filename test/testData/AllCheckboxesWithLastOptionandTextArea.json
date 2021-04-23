@@ -1,10 +1,11 @@
 [
     {
     "username": "locum2@primeradiology.com.au",
-    "password": "PrimeRadiology",
+    "password": "password123",
     "ultrasoundRoom": "Baldivis - US 1",
     "rooms":["Baldivis - US 2", "Others"],
     "pageName":"Abdominal US",
+    "keyList":["Comment Options_4"],
     "GeneralDetails":
     {
         "templateType": "generalInfo_allField"

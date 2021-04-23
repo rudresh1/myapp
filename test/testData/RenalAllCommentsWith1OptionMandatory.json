@@ -1,0 +1,113 @@
+[
+    {
+    "username": "locum2@primeradiology.com.au",
+    "password": "password123",
+    "ultrasoundRoom": "Baldivis - US 1",
+    "rooms":["Baldivis - US 2", "Others"],
+    "pageName":"Renal US",
+    "keyList":["Comment Options_1"],
+    "GeneralDetails":
+    {
+        "templateType": "generalInfo_allField"
+    },
+    "clinicalHx":
+        {   
+            "templateType": "clinicalHx_ALLCommentsWith1OptionMandatory"
+        },
+    "findings":
+            {   
+
+                "Right kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Any calculi ?",
+                             "type": "required_Fixed",
+                             "option":"No"                      
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                             
+                        },
+                        {
+                            "checkboxName":"Any solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                   
+                },
+                "Left kidney": 
+                {
+                    "option": "Comments",
+                        "checkboxOptions":
+                        [{
+                            "checkboxName":"Size",
+                            "type": "required_Fixed",
+                            "option":"Normal"
+                            
+                        },
+                        {
+                            "checkboxName":"Any calculi ?",
+                             "type": "required_Fixed",
+                             "option":"No"                      
+                        },
+                        {
+                            "checkboxName":"Any hydronephrosis ?",
+                             "type": "required_Fixed",
+                             "option":"No"
+                             
+                        },
+                        {
+                            "checkboxName":"Any solid lesion ?",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                    
+                },
+                "Urinary bladder": 
+                {
+                    "option": "Comments",
+                    "checkboxOptions":
+                    [{
+                            "checkboxName":"Calculi",
+                             "type": "required_Fixed",
+                             "option":"No"                      
+                        },
+                        {
+                            "checkboxName":"Solid lesion",
+                            "type": "required_Fixed",
+                            "option": "No"
+                            
+                        }]
+                   
+                },
+                "Ureteric jets": 
+                {
+                    "option": "Neither jets seen"
+                },
+                "Other findings": 
+                {
+                    "option": "Comments"
+                }
+            },        
+    "conclusions":
+        {
+            "templateType": "conclusion_ALLCommentsWith1OptionMandatory"
+        }
+   
+  
+
+
+    }
+]

@@ -65,6 +65,108 @@
             }
     	}
     },
+        {
+        "scenario": "RightLeftGroinAllNad",
+    	"RightLeftGroinAllNad":{
+    		"findings":
+            {   
+
+               "RIGHT GROIN":{
+	                "Hernia":
+	                {
+	                    "option": "Absent"
+	                },
+	                "Post-operative changes":
+	                {
+	                    "option":"No"
+	                },
+	                "Lymph nodes":
+	                {
+	                    "option": "Normal LN"
+	                },
+	                "Adductor origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Sartorius origin":
+	                {
+	                    "option": "NAD"
+	                },
+	                "TFL origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Rectus femoris origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "bursa": 
+	                {
+	                    "templateType": "bursa_ALLCommentsWith1OptionMandatory"
+	                },
+	                "LFCN": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Other findings":
+	                {
+	                	"option": "None"
+	                },
+	                "COMMENT":
+	                {
+	                	"option": "NAD"
+	                }
+	             },
+	             
+	         "LEFT GROIN":{
+	                "Hernia":
+	                {
+	                    "option": "Absent"
+	                },
+	                "Post-operative changes":
+	                {
+	                    "option":"No"
+	                },
+	                "Lymph nodes":
+	                {
+	                    "option": "Normal LN"
+	                },
+	                "Adductor origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Sartorius origin":
+	                {
+	                    "option": "NAD"
+	                },
+	                "TFL origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Rectus femoris origin": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "bursa": 
+	                {
+	                    "templateType": "bursa_ALLCommentsWith1OptionMandatory"
+	                },
+	                "LFCN": 
+	                {
+	                    "option": "NAD"
+	                },
+	                "Other findings":
+	                {
+	                	"option": "None"
+	                },
+	                "COMMENT":
+	                {
+	                	"option": "NAD"
+	                }
+	             }    
+            }
+    	}
+    },
     {
         "scenario": "ALLNA",
         "ALLNA":
@@ -337,11 +439,7 @@
                 "Lymph nodes": 
                 {
                     "option": "Normal LN",
-                    "rm":"true",
-                    "checkboxOptions":
-                    [{
                         "roi": "true"
-                    }]
                 },
                 "RIF": 
                 {
